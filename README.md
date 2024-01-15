@@ -1,4 +1,4 @@
-# algorithm
+# algorithm study
 
 ## 문제 제출 방법
 1. git clone 으로 해당 레파지토리 복사
