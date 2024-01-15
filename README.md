@@ -1,5 +1,12 @@
 # algorithm
 
+## 문제 제출 방법
+1. git clone 으로 해당 레파지토리 복사
+2. 해당 회차의 폴더에 개인 이름으로 폴더 생성
+3. 문제 번호를 제목으로 소스코드를 업로드
+4. git push
+5. 남의 폴더 건들시 죽음
+
 ## rule
 1. 월요일 목요일 17시 모임
 2. 불참시 죽음
@@ -15,7 +22,7 @@
 ### 2024-01-15 1회차
 [브론즈 1] 2309번 : [일곱 난쟁이](https://www.acmicpc.net/problem/2309)
 
-[실버 3] 2503번 : [숫자 야구] (https://www.acmicpc.net/problem/2503)
+[실버 3] 2503번 : [숫자 야구](https://www.acmicpc.net/problem/2503)
 
 [실버 2] 1182번 : [부분 집합의 합](https://www.acmicpc.net/problem/1182)
 
