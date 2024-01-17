@@ -1,3 +1,4 @@
+
 #include <iostream>
 #include <algorithm>
 
@@ -16,7 +17,7 @@ int	main(void)
 
 	for (int i = 0; i < 9; i++)
 	{
-		for (int j = i; j < 9; j++)
+		for (int j = i + 1; j < 9; j++)
 		{
 			if (small[i] + small[j] == sum - 100)
 			{

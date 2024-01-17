@@ -1,3 +1,4 @@
+
 #include <iostream>
 
 int		array_init(char arr[900][4]);
