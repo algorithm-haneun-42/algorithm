@@ -4,7 +4,7 @@
 1. git clone 으로 해당 레파지토리 복사
 2. 해당 회차의 폴더에 개인 이름으로 폴더 생성
 3. 문제 번호를 제목으로 소스코드를 업로드
-4. git push
+4. git fetch -> git pull 이후 git push
 5. 남의 폴더 건들시 죽음
 
 ## rule
@@ -28,3 +28,11 @@
 
 [실버 2] 1182번 : [부분 집합의 합](https://www.acmicpc.net/problem/1182)
 
+### 2024-01-18 2회차 : 탐욕적 기법
+[브론즈 1] 4796번 : [캠핑](https://www.acmicpc.net/problem/4796)
+
+[실버 4] 11047번 : [동전 0](https://www.acmicpc.net/problem/11047)
+
+[실버 1] 1931번 : [회의실 배정](https://www.acmicpc.net/problem/1931)
+
+[골드 3] 13904번 : [과제(보너스)](https://www.acmicpc.net/problem/13904)
