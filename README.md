@@ -29,10 +29,10 @@
 [실버 2] 1182번 : [부분 집합의 합](https://www.acmicpc.net/problem/1182)
 
 ### 2024-01-18 2회차 : 탐욕적 기법
-[브론즈 1] 4796번 : [캠핑](https://www.acmicpc.net/problem/4796)
+[브론즈 1] 4796_camping : [캠핑](https://www.acmicpc.net/problem/4796) 
 
-[실버 4] 11047번 : [동전 0](https://www.acmicpc.net/problem/11047)
+[실버 4] 11047_coin : [동전 0](https://www.acmicpc.net/problem/11047) 
 
-[실버 1] 1931번 : [회의실 배정](https://www.acmicpc.net/problem/1931)
+[실버 1] 1931_meetingroom : [회의실 배정](https://www.acmicpc.net/problem/1931) 
 
-[골드 3] 13904번 : [과제(보너스)](https://www.acmicpc.net/problem/13904)
+[골드 3] 13904_assignment : [과제(보너스)](https://www.acmicpc.net/problem/13904) 
