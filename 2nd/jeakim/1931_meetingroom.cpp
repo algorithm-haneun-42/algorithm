@@ -39,7 +39,7 @@ int main()
     }
     //시작 시간 기준 정렬
     sort(met.begin(), met.end());
-	//
+	//최대값 구하기
 	max = 0;
 	for (int i = 0; i < N; i++)
 	{
