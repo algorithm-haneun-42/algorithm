@@ -14,15 +14,7 @@ class  Camping4796{
 			if (l == 0 && p == 0 && v == 0) {
 				break;
 			}
-			while (v > 0) {
-				if (v > p) {
-					v -= p;
-					answer += l;
-				} else {
-					answer = v > l ? answer + l : answer + v;
-					v = 0;
-				}
-			}
+			answer = (v / p * l) + (v % p < l ? v % p : l);
 			System.out.printf("Case %d: %d\n", ++i , answer);
 		}
 	}
