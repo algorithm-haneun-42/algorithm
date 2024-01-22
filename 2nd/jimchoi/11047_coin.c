@@ -1,39 +1,36 @@
 #include <stdio.h>
-int countDigits(void);
 
-int k; 
-int num[3];
-
-int main()
+int main(void) 
 {
-	int n;
-
+	int n, k;
+	int count = 0;
+	int sum = 0;
 	scanf("%d %d", &n, &k);
-
-	num[0]= k / 100; 
-	num[1]= (k / 10) - num[0] * 10; 
-	num[2]= k % 10;
-
 	int coins[n];
+	
+	for(int i=0; i<n; i++)
+		scanf("%d", &coins[i]);
 
-	// for(int i = 0; i < n; i++)
-	// 	scanf("%d", &coins[i]);
-
-	printf("%d\n", countDigits());
-}
-int countDigits(void)
-{
-	int num = k;
-	int len=0;
-	while(num > 0)
+	int idx = n-1;
+	while(1)
 	{
-		len++;
-		num = num / 10;
-	}
-	return len;
-}
+		if(sum == k)
+			break;
 
-// void findMinimum(int coins[])
-// {
-// 	while
-// }
+		else if(coins[idx] > k)
+			idx--;
+
+		else
+		{
+			sum += coins[idx];
+			if(sum > k)
+			{
+				sum -= coins[idx];
+				idx--;
+			}
+			else
+				count++;
+		}
+	}
+	printf("%d",count);
+}
