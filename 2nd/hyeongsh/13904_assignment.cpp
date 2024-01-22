@@ -8,7 +8,8 @@ bool	pair_compare(const std::pair<int, int>& a, const std::pair<int, int>& b);
 int	main(void)
 {
 	int	n;
-	int	max = 0;
+	int	ans = 0;
+	int	deadline;
 	
 	std::cin >> n;
 
@@ -16,20 +17,33 @@ int	main(void)
 	for (int i = 0; i < n; i++)
 		std::cin >> assign[i].first >> assign[i].second;
 	std::sort(assign.begin(), assign.end(), pair_compare);
-	for (int i = 0; i < n; i++)
+	deadline = assign[0].first;
+	for (int i = deadline; i > 0; i--)
 	{
-		for (int j = i; j < n - 1; j++)
+		int	max = 0;
+		int	max_index = -1;
+		for (int j = 0; j < n; j++)
 		{
-			if (assign[i].first == assign[i + 1].first)
-			
+			if (assign[j].first < i)
+				continue ;
+			if (max < assign[j].second)
+			{
+				max = assign[j].second;
+				max_index = j;
+			}
+		}
+		if (max != 0)
+		{
+			assign[max_index].second = -1;
+			ans += max;
 		}
 	}
-	std::cout << max << std::endl;
+	std::cout << ans << std::endl;
 }
 
 bool	pair_compare(const std::pair<int, int>& a, const std::pair<int, int>& b)
 {
-	if (a.first < b.first)
+	if (a.first > b.first)
 		return (1);
 	else if (a.first == b.first && a.second > b.second)
 		return (1);
