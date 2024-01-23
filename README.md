@@ -38,7 +38,7 @@
 [골드 3] 13904_assignment : [과제(보너스)](https://www.acmicpc.net/problem/13904) 
 
 ### 2024-01-22 3회차 : 큐, 덱
-[실버 4] 10866_dequeue : [덱](https://www.acmicpc.net/problem/10866)
+[실버 4] 10866_deque : [덱](https://www.acmicpc.net/problem/10866)
 - 단, 라이브러리를 사용하지 않고 덱을 직접 구현해야 함
 
 [실버 4] 2164_card2 : [카드2](https://www.acmicpc.net/problem/2164) 
