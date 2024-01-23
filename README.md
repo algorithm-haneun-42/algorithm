@@ -28,7 +28,7 @@
 
 [실버 2] 1182번 : [부분 집합의 합](https://www.acmicpc.net/problem/1182)
 
-### 2024-01-18 2회차 : 탐욕적 기법
+### 2024-01-18 2회차 : 그리디
 [브론즈 1] 4796_camping : [캠핑](https://www.acmicpc.net/problem/4796) 
 
 [실버 4] 11047_coin : [동전 0](https://www.acmicpc.net/problem/11047) 
@@ -36,3 +36,13 @@
 [실버 1] 1931_meetingroom : [회의실 배정](https://www.acmicpc.net/problem/1931) 
 
 [골드 3] 13904_assignment : [과제(보너스)](https://www.acmicpc.net/problem/13904) 
+
+### 2024-01-22 3회차 : 큐, 덱
+[실버 4] 10866_dequeue : [덱](https://www.acmicpc.net/problem/10866)
+- 단, 라이브러리를 사용하지 않고 덱을 직접 구현해야 함
+
+[실버 4] 2164_card2 : [카드2](https://www.acmicpc.net/problem/2164) 
+
+[실버 3] 1966_printerqueue : [프린터 큐](https://www.acmicpc.net/problem/1966) 
+
+[골드 4] 3078_goodfriend : [좋은 친구(보너스)](https://www.acmicpc.net/problem/3078)
