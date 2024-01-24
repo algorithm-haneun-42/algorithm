@@ -37,7 +37,7 @@ public class Printerqueue1966 {
 					q.add(tmp);
 				} else {
 					tmp = q.poll();
-					pq.poll();
+					pq.poll() ;
 					answer++;
 					if (tmp.num == target) break;
 				}
