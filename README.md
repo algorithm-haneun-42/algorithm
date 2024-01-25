@@ -51,7 +51,8 @@
 
 ### 2024-01-25 4회차 : 스택
 * 문제 소스 변경 (바킹독 문제집)
-스택 개념 강의(https://youtu.be/cdjjk-ryPKc)
+  
+[스택 개념 강의](https://youtu.be/cdjjk-ryPKc)
 
 [실버 4] 4949_world : [균형잡힌 세상](https://www.acmicpc.net/problem/4949)
 
