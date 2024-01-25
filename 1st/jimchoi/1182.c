@@ -26,8 +26,7 @@ int main()
 	// }
 
 	f(arr, 0);
-	printf("%d\n", count);
-	printf("\n");
+	printf("%d", count);
 }
 void f(int arr[], int idx)
 {
@@ -45,7 +44,7 @@ void f(int arr[], int idx)
 		if (sum == s)
 		{
 			count++;
-			f(arr, idx + 1);
+			// f(arr, idx + 1);
 		}
 
 		
