@@ -40,14 +40,13 @@ int main()
 				q.push(t);
 			}
 		}
-		while(q.front() <= p_num && j < n)
-		{
+		q.pop();
+		while(q.front() <= p_num && !q.empty())
 			q.pop();
-			j ++;
-		}
-		while(q.front() >= p_num && j < n)
+		while(!q.empty())
 		{
-			sum += 1;
+			if(q.front() >= p_num)
+				sum += 1;
 			q.pop();
 		}
 		cout << sum + 1 << "\n";
