@@ -19,7 +19,9 @@
 ---
 ## 문제 목록
 
-[문제 소스](https://blog.naver.com/kks227/220769859177)
+[바킹독 블로그](https://blog.encrypted.gg/category/%EA%B0%95%EC%A2%8C/%EC%8B%A4%EC%A0%84%20%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98?page=2)
+
+[백준 문제집](https://www.acmicpc.net/workbook/by/BaaaaaaaaaaarkingDog)
 
 ### 2024-01-15 1회차 : 완전 탐색
 [브론즈 1] 2309번 : [일곱 난쟁이](https://www.acmicpc.net/problem/2309)
@@ -46,3 +48,15 @@
 [실버 3] 1966_printerqueue : [프린터 큐](https://www.acmicpc.net/problem/1966) 
 
 [골드 4] 3078_goodfriend : [좋은 친구(보너스)](https://www.acmicpc.net/problem/3078)
+
+### 2024-01-25 4회차 : 스택
+* 문제 소스 변경 (바킹독 문제집)
+스택 개념 강의(https://youtu.be/cdjjk-ryPKc)
+
+[실버 4] 4949_world : [균형잡힌 세상](https://www.acmicpc.net/problem/4949)
+
+[실버 4] 2164_goodword : [좋은 단어](https://www.acmicpc.net/problem/3986) 
+
+[실버 2] 10799_stealstick : [쇠막대기](https://www.acmicpc.net/problem/10799)
+
+[골드 5] 3078_parentheses : [괄호의 값(보너스)](https://www.acmicpc.net/problem/2504)
