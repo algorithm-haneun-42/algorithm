@@ -42,7 +42,7 @@ int main(void)
 			sum += bigger + same + 1;
 		else
 			sum += bigger + 1;
-		printf("%d\n", sum);
+		printf("%d", sum);
 	}
 }
 
