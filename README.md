@@ -72,4 +72,4 @@
 
 [실버 2] 10799_stealstick : [쇠막대기](https://www.acmicpc.net/problem/10799)
 
-[골드 5] 3078_parentheses : [괄호의 값(보너스)](https://www.acmicpc.net/problem/2504)
+[골드 5] 2504_parentheses : [괄호의 값(보너스)](https://www.acmicpc.net/problem/2504)
