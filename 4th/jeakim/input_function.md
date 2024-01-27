@@ -37,7 +37,7 @@ cin >> str;
 
 💡 cin.getline(char str, streamsize n);
 
-💡 cin.getline(char str, streamsize n, char dlim);*
+💡 cin.getline(char str, streamsize n, char dlim);
 
 </aside>
 
@@ -55,7 +55,7 @@ cin >> str;
 
 💡 getline(istream& is, string str);
 
-💡 getline(istream& is, string str, char dlim);*
+💡 getline(istream& is, string str, char dlim);
 
 </aside>
 
