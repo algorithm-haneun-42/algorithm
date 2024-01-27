@@ -39,6 +39,7 @@ cin >> str;
 
 💡 cin.getline(char str, streamsize n, char dlim);
 
+
 </aside>
 
 - #include <istream>
@@ -56,6 +57,7 @@ cin >> str;
 💡 getline(istream& is, string str);
 
 💡 getline(istream& is, string str, char dlim);
+
 
 </aside>
 
