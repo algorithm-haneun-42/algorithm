@@ -35,8 +35,9 @@ cin >> str;
 <aside>
 💡 cin.getline(변수 주소, 최대 입력 가능 문자수, 종결 문자);
 
-*cin.getline(char str, streamsize n);
-cin.getline(char str, streamsize n, char dlim);*
+💡 cin.getline(char str, streamsize n);
+
+💡 cin.getline(char str, streamsize n, char dlim);*
 
 </aside>
 
@@ -52,8 +53,9 @@ cin.getline(char str, streamsize n, char dlim);*
 <aside>
 💡 getline(입력스트림 오브젝트, 문자열을 저장할 string객체, 종결 문자);
 
-*getline(istream& is, string str);
-getline(istream& is, string str, char dlim);*
+💡 getline(istream& is, string str);
+
+💡 getline(istream& is, string str, char dlim);*
 
 </aside>
 
@@ -98,7 +100,8 @@ getline(cin, str);
 
 <aside>
 💡 cin.ignore(읽어들일 문자의 개수, 종결 문자);
-cin.ignore(int n, char dlim);
+    
+💡 cin.ignore(int n, char dlim);
 
 </aside>
 
