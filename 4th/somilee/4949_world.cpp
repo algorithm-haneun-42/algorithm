@@ -24,25 +24,22 @@ int main()
 				s.push('[');
 			if (str[i] == ')')
 			{
-				if (s.top() == '(')
-					s.pop();
-				else
+				if (s.empty() || s.top() != '(')
 				{
 					cout << "no\n";
 					break;
 				}
+				s.pop();
 			}
 			if (str[i] == ']')
 			{
-				if (s.top() == '[')
-					s.pop();
-				else
+				if (s.empty() || s.top() != '[')
 				{
 					cout << "no\n";
 					break;
 				}
+				s.pop();
 			}
-
 		}
 		if (!str[i])
 		{
