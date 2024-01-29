@@ -73,3 +73,16 @@
 [실버 2] 10799_stealstick : [쇠막대기](https://www.acmicpc.net/problem/10799)
 
 [골드 5] 2504_parentheses : [괄호의 값(보너스)](https://www.acmicpc.net/problem/2504)
+
+### 2024-01-29 5회차 : BFS
+* 기업설명회 이슈로 목요일은 4시
+  
+[BFS 개념 강의(필수시청)](https://www.youtube.com/watch?v=ftOmGdm95XI&t=3s)
+
+[실버 2] 1012_cabage : [유기농 배추](https://www.acmicpc.net/problem/1012)
+
+[실버 1] 7562_knight : [나이트의 이동](https://www.acmicpc.net/problem/7562) 
+
+[골드 5] 7569_tomato : [토마토](https://www.acmicpc.net/problem/7569)
+
+[골드 4] 13913_hide : [숨바꼭질 4(보너스)](https://www.acmicpc.net/problem/13913)
