@@ -24,7 +24,6 @@ int main()
 		}
 		if (st.empty())
 			cnt++;
-		cout << "cnt : " << cnt << endl;
 		while(!st.empty()) st.pop();
 	}
 	cout << cnt << endl;
