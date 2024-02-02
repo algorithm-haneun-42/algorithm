@@ -86,3 +86,11 @@
 [골드 5] 7569_tomato : [토마토](https://www.acmicpc.net/problem/7569)
 
 [골드 4] 13913_hide : [숨바꼭질 4(보너스)](https://www.acmicpc.net/problem/13913)
+
+### 2024-02-05 6회차  : BFS+
+
+[실버 1] 2667_complex_name : [단지번호붙이기](https://www.acmicpc.net/problem/2667)
+
+[골드 4] 2573_iceberg : [빙산](https://www.acmicpc.net/problem/2573)
+
+[골드 3] 1600_monkey_knight : [말이 되고 싶은 원숭이(보너스)](https://www.acmicpc.net/problem/1600)
