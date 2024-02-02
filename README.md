@@ -89,7 +89,7 @@
 
 ### 2024-02-05 6회차  : BFS+
 
-[실버 1] 2667_complex_name : [단지번호붙이기](https://www.acmicpc.net/problem/2667)
+[실버 1] 2667_complex_number : [단지번호붙이기](https://www.acmicpc.net/problem/2667)
 
 [골드 4] 2573_iceberg : [빙산](https://www.acmicpc.net/problem/2573)
 
