@@ -24,7 +24,7 @@ int main(void)
 	}
 	int num;
 	int year;
-	for (year = 0; year <= 10; year ++)
+	for (year = 0; 1; year ++)
 	{
 		bool vis[300][300] = {0};
 		num = 0;
@@ -62,8 +62,11 @@ int main(void)
 		}
 		if (num >= 2)
 			break;
+		if (num == 0)
+		{
+			year = 0;
+			break;
+		}
 	}
-	if (num <= 1)
-		year = 0;
 	cout << year;
 }
