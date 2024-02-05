@@ -6,7 +6,7 @@ public class Monkey1600 {
 	static int[][] map;
 	static int[][] dir = {{1, 0}, {0, 1}, {-1, 0}, {0, -1}};
 	static int[][] nDir = {{-2, 1}, {-1, 2}, {2, 1}, {1, 2}, {-2, -1}, {-1, -2}, {1, -2}, {2, -1}};
-	static boolean[][] v;
+	static boolean[][][] v;
 	static Queue<Pos> q = new LinkedList<>();
 	public static void main(String args[]) {
 		Scanner sc = new Scanner(System.in);
@@ -19,25 +19,22 @@ public class Monkey1600 {
 				map[i][j] = sc.nextInt();
 			}
 		}
-		v = new boolean[n][m];
-		v[0][0] = true;
+		v = new boolean[k + 1][n][m];
+		v[k][0][0] = true;
 		q.add(new Pos(0, 0, 0, k));
 		System.out.println(bfs());
 	}
 	static int bfs() {
 		while(!q.isEmpty()) {
 			Pos cur = q.poll();
-			if (cur.x == 0 && cur.y == 7) {
-				System.out.println(cur.mk);
-			}
 			if (cur.x == n - 1 && cur.y == m - 1) {
 				return cur.c;
 			}
 			for (int i = 0; i < 4; i++) {
 				int nx = cur.x + dir[i][0];
 				int ny = cur.y + dir[i][1];
-				if (nx >= 0 && nx < n && ny >= 0 && ny < m && map[nx][ny] == 0 && v[nx][ny] == false) {
-					v[nx][ny] = true;
+				if (nx >= 0 && nx < n && ny >= 0 && ny < m && map[nx][ny] == 0 && !v[cur.mk][nx][ny]) {
+					v[cur.mk][nx][ny] = true;
 					q.add(new Pos(nx, ny, cur.c + 1, cur.mk));
 				}
 			}
@@ -45,8 +42,8 @@ public class Monkey1600 {
 				for (int i = 0; i < 8; i++) {
 					int nx = cur.x + nDir[i][0];
 					int ny = cur.y + nDir[i][1];
-					if (nx >= 0 && nx < n && ny >= 0 && ny < m && map[nx][ny] == 0 && !v[nx][ny]) {
-						v[nx][ny] = true;
+					if (nx >= 0 && nx < n && ny >= 0 && ny < m && map[nx][ny] == 0 && !v[cur.mk - 1][nx][ny]) {
+						v[cur.mk - 1][nx][ny] = true;
 						q.add(new Pos(nx, ny, cur.c + 1, cur.mk - 1));
 					}
 				}
