@@ -43,8 +43,10 @@ void bft(int x, int y)
 				vis[nx][ny]=1;
 				// cnt++;
 			}
-				board[x][y] -= count;
+				
+				
 		}
+			board[tmp_x][tmp_y] -= 1;
 	}
 }
 
@@ -88,8 +90,8 @@ int main(void) {
 				}
 			}
 		}
-		cout << h << "번째" << endl;
-		print_board();
+		// cout << h << "번째" << endl;
+		// print_board();
 
 		if (count > 1)
 		{
