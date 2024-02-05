@@ -37,6 +37,13 @@
 
 ### 2024-02-05 6회차  : BFS+
 
+1 2 3 더하기
+1로 만들기 2
+스티커
+암호코드(보너스)
+
+### 2024-02-05 6회차  : BFS+
+
 [실버 1] 2468_safety_area : [안전영역](https://www.acmicpc.net/problem/2468)
 
 [실버 1] 2667_complex_number : [단지번호붙이기](https://www.acmicpc.net/problem/2667)
