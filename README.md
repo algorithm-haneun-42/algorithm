@@ -35,14 +35,17 @@
 
 [백준 문제집](https://www.acmicpc.net/workbook/by/BaaaaaaaaaaarkingDog)
 
-### 2024-02-05 6회차  : BFS+
+### 2024-02-05 7회차 : DP
 
-1 2 3 더하기
-1로 만들기 2
-스티커
-암호코드(보너스)
+[실버 3] plus_123_9095 : [1, 2, 3 더하기](https://www.acmicpc.net/problem/9095)
 
-### 2024-02-05 6회차  : BFS+
+[실버 1] make_one_12852 : [1로 만들기 2](https://www.acmicpc.net/problem/12852)
+
+[실버 1] sticker_9465 : [스티커](https://www.acmicpc.net/problem/9465)
+
+[골드 5] password_cord_2011 : [암호코드(보너스)](https://www.acmicpc.net/problem/2011)
+
+### 2024-02-05 6회차 : BFS+
 
 [실버 1] 2468_safety_area : [안전영역](https://www.acmicpc.net/problem/2468)
 
