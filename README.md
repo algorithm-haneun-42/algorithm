@@ -35,31 +35,38 @@
 
 [백준 문제집](https://www.acmicpc.net/workbook/by/BaaaaaaaaaaarkingDog)
 
-### 2024-01-15 1회차 : 완전 탐색
-[브론즈 1] 2309번 : [일곱 난쟁이](https://www.acmicpc.net/problem/2309)
+### 2024-02-05 7회차 : DP
 
-[실버 3] 2503번 : [숫자 야구](https://www.acmicpc.net/problem/2503)
+[실버 3] plus_123_9095 : [1, 2, 3 더하기](https://www.acmicpc.net/problem/9095)
 
-[실버 2] 1182번 : [부분 집합의 합](https://www.acmicpc.net/problem/1182)
+[실버 1] make_one_12852 : [1로 만들기 2](https://www.acmicpc.net/problem/12852)
 
-### 2024-01-18 2회차 : 그리디
-[브론즈 1] 4796_camping : [캠핑](https://www.acmicpc.net/problem/4796) 
+[실버 1] sticker_9465 : [스티커](https://www.acmicpc.net/problem/9465)
 
-[실버 4] 11047_coin : [동전 0](https://www.acmicpc.net/problem/11047) 
+[골드 5] password_cord_2011 : [암호코드(보너스)](https://www.acmicpc.net/problem/2011)
 
-[실버 1] 1931_meetingroom : [회의실 배정](https://www.acmicpc.net/problem/1931) 
+### 2024-02-05 6회차 : BFS+
 
-[골드 3] 13904_assignment : [과제(보너스)](https://www.acmicpc.net/problem/13904) 
+[실버 1] 2468_safety_area : [안전영역](https://www.acmicpc.net/problem/2468)
 
-### 2024-01-22 3회차 : 큐, 덱
-[실버 4] 10866_deque : [덱](https://www.acmicpc.net/problem/10866)
-- 단, 라이브러리를 사용하지 않고 덱을 직접 구현해야 함
+[실버 1] 2667_complex_number : [단지번호붙이기](https://www.acmicpc.net/problem/2667)
 
-[실버 4] 2164_card2 : [카드2](https://www.acmicpc.net/problem/2164) 
+[골드 4] 2573_iceberg : [빙산](https://www.acmicpc.net/problem/2573)
 
-[실버 3] 1966_printerqueue : [프린터 큐](https://www.acmicpc.net/problem/1966) 
+[골드 3] 1600_monkey_knight : [말이 되고 싶은 원숭이(보너스)](https://www.acmicpc.net/problem/1600)
 
-[골드 4] 3078_goodfriend : [좋은 친구(보너스)](https://www.acmicpc.net/problem/3078)
+### 2024-01-29 5회차 : BFS
+* 기업설명회 이슈로 목요일은 4시
+  
+[BFS 개념 강의(필수시청)](https://www.youtube.com/watch?v=ftOmGdm95XI&t=3s)
+
+[실버 2] 1012_cabage : [유기농 배추](https://www.acmicpc.net/problem/1012)
+
+[실버 1] 7562_knight : [나이트의 이동](https://www.acmicpc.net/problem/7562) 
+
+[골드 5] 7569_tomato : [토마토](https://www.acmicpc.net/problem/7569)
+
+[골드 4] 13913_hide : [숨바꼭질 4(보너스)](https://www.acmicpc.net/problem/13913)
 
 ### 2024-01-25 4회차 : 스택
 * 문제 소스 변경 (바킹독 문제집)
@@ -74,15 +81,28 @@
 
 [골드 5] 2504_parentheses : [괄호의 값(보너스)](https://www.acmicpc.net/problem/2504)
 
-### 2024-01-29 5회차 : BFS
-* 기업설명회 이슈로 목요일은 4시
-  
-[BFS 개념 강의(필수시청)](https://www.youtube.com/watch?v=ftOmGdm95XI&t=3s)
+### 2024-01-22 3회차 : 큐, 덱
+[실버 4] 10866_deque : [덱](https://www.acmicpc.net/problem/10866)
+- 단, 라이브러리를 사용하지 않고 덱을 직접 구현해야 함
 
-[실버 2] 1012_cabage : [유기농 배추](https://www.acmicpc.net/problem/1012)
+[실버 4] 2164_card2 : [카드2](https://www.acmicpc.net/problem/2164) 
 
-[실버 1] 7562_knight : [나이트의 이동](https://www.acmicpc.net/problem/7562) 
+[실버 3] 1966_printerqueue : [프린터 큐](https://www.acmicpc.net/problem/1966) 
 
-[골드 5] 7569_tomato : [토마토](https://www.acmicpc.net/problem/7569)
+[골드 4] 3078_goodfriend : [좋은 친구(보너스)](https://www.acmicpc.net/problem/3078)
 
-[골드 4] 13913_hide : [숨바꼭질 4(보너스)](https://www.acmicpc.net/problem/13913)
+### 2024-01-18 2회차 : 그리디
+[브론즈 1] 4796_camping : [캠핑](https://www.acmicpc.net/problem/4796) 
+
+[실버 4] 11047_coin : [동전 0](https://www.acmicpc.net/problem/11047) 
+
+[실버 1] 1931_meetingroom : [회의실 배정](https://www.acmicpc.net/problem/1931) 
+
+[골드 3] 13904_assignment : [과제(보너스)](https://www.acmicpc.net/problem/13904) 
+
+### 2024-01-15 1회차 : 완전 탐색
+[브론즈 1] 2309번 : [일곱 난쟁이](https://www.acmicpc.net/problem/2309)
+
+[실버 3] 2503번 : [숫자 야구](https://www.acmicpc.net/problem/2503)
+
+[실버 2] 1182번 : [부분 집합의 합](https://www.acmicpc.net/problem/1182)
