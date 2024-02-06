@@ -35,7 +35,7 @@
 
 [백준 문제집](https://www.acmicpc.net/workbook/by/BaaaaaaaaaaarkingDog)
 
-### 2024-02-05 7회차 : DP
+### 2024-02-08 7회차 : DP
 
 [실버 3] plus_123_9095 : [1, 2, 3 더하기](https://www.acmicpc.net/problem/9095)
 
