@@ -36,6 +36,7 @@
 [백준 문제집](https://www.acmicpc.net/workbook/by/BaaaaaaaaaaarkingDog)
 
 ### 2024-02-08 7회차 : DP
+[DP 개념 강의](https://youtu.be/5leTtB3PQu0?si=zJODfZ1cvduEbdHv)
 
 [실버 3] plus_123_9095 : [1, 2, 3 더하기](https://www.acmicpc.net/problem/9095)
 
