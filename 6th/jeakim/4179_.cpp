@@ -27,9 +27,9 @@ int main()
 	cin.tie(0);
 
 	int R, C;
-	int miro[100][100];
-	int m_fire[100][100];
-	int m_jh[100][100];
+	int miro[1000][1000];
+	int m_fire[1000][1000];
+	int m_jh[1000][1000];
 	queue<pair<int, int> > q_fire;
 	queue<pair<int, int> > q_jh;
 	int dx[4] = {1, 0, -1, 0};
