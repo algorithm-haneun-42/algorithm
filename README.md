@@ -35,6 +35,17 @@
 
 [백준 문제집](https://www.acmicpc.net/workbook/by/BaaaaaaaaaaarkingDog)
 
+벽 부수고 이동하기
+포도주 시식
+오르막 수
+LCS
+
+(보너스)
+다리 만들기 
+동전 2
+타일 채우기
+내리막길
+
 ### 2024-02-08 7회차 : DP
 [DP 개념 강의](https://youtu.be/5leTtB3PQu0?si=zJODfZ1cvduEbdHv)
 
