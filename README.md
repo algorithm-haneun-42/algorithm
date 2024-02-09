@@ -35,16 +35,25 @@
 
 [백준 문제집](https://www.acmicpc.net/workbook/by/BaaaaaaaaaaarkingDog)
 
-벽 부수고 이동하기
-포도주 시식
-오르막 수
-LCS
+### 2024-02-08 7회차 : DP
 
-(보너스)
-다리 만들기 
-동전 2
-타일 채우기
-내리막길
+메인 4개, 보너스 4개
+
+[골드 3] wall_2206 : [벽 부수고 이동하기](https://www.acmicpc.net/problem/2206)
+
+[실버 1] wine_2156 : [포도주 시식](https://www.acmicpc.net/problem/2156)
+
+[실버 1] ascent_11057 : [오르막 수](https://www.acmicpc.net/problem/11057)
+
+[골드 5] lcs_9251 : [LCS](https://www.acmicpc.net/problem/9251)
+
+[골드 3] make_bridge_2146 : [다리 만들기(보너스)](https://www.acmicpc.net/problem/2146)
+
+[골드 5] coin2_2294 : [동전 2(보너스)](https://www.acmicpc.net/problem/2294)
+
+[골드 4] tile_2133 : [타일 채우기(보너스)](https://www.acmicpc.net/problem/2133)
+
+[골드 3] descent_1520 : [내리막 길(보너스)](https://www.acmicpc.net/problem/1520)
 
 ### 2024-02-08 7회차 : DP
 [DP 개념 강의](https://youtu.be/5leTtB3PQu0?si=zJODfZ1cvduEbdHv)
