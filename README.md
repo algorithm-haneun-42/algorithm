@@ -35,7 +35,7 @@
 
 [백준 문제집](https://www.acmicpc.net/workbook/by/BaaaaaaaaaaarkingDog)
 
-### 2024-02-15 9회차 : BFS, DP
+### 2024-02-15 8회차 : BFS, DP
 
 메인 4개, 보너스 4개
 
