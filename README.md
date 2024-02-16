@@ -35,15 +35,17 @@
 
 [백준 문제집](https://www.acmicpc.net/workbook/by/BaaaaaaaaaaarkingDog)
 
-### 2024-02-15 8회차 : BFS, DP
+### 2024-02-19 9회차 : 이분탐색
 
-수 찾기
+[이분탐색 개념 강의](https://www.youtube.com/watch?v=3TkaOKHxHnI)
 
-숫자 카드 2
+[실버 4] find_num_1920 : [수 찾기](https://www.acmicpc.net/problem/1920)
 
-랜선 자르기
+[실버 4] num_card_10816 : [숫자 카드 2](https://www.acmicpc.net/problem/10816)
 
-용액(보너스)
+[실버 2] cut_LAN_cable_1654 : [랜선 자르기](https://www.acmicpc.net/problem/1654)
+
+[골드 5] solution_2467 : [용액](https://www.acmicpc.net/problem/2467)
 
 ### 2024-02-15 8회차 : BFS, DP
 
