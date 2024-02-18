@@ -26,6 +26,7 @@ int main()
 {
 	ios::sync_with_stdio(0);
 	cin.tie(0);
+	cout.tie(0);
 
 	int n, m;
 	int a[100000];
@@ -40,6 +41,6 @@ int main()
 		int k;
 
 		cin >> k;
-		cout << binarysearch(n, a, k) << endl;
+		cout << binarysearch(n, a, k) << '\n';
 	}
 }
