@@ -4,38 +4,38 @@
 
 using namespace std;
 
-int binary_search(int n, vector<int> a, int trg)
+int upper_bound(int n, vector<int> a, int trg)
 {
 	int start = 0;
-	int end = n - 1;
-	int cnt = 0;
+	int end = n;
 
-	while (start <= end)
+	while (start < end)
 	{
 		int mid = (start + end) / 2;
 
-		if (a[mid] < trg)
-			start = mid + 1;
-		else if (a[mid] > trg)
-			end = mid - 1;
+		if (a[mid] > trg)
+			end = mid;
 		else
-		{
-			int idx = mid;
-			while ((idx < n) && a[idx] == trg)
-			{
-				idx++;
-				cnt++;
-			}
-			idx = mid - 1;
-			while (idx >= 0 && a[idx] == trg)
-			{
-				idx--;
-				cnt++;
-			}
-			break;
-		}
+			start = mid + 1;
 	}
-	return (cnt);
+	return (start);
+}
+
+int lower_bound(int n, vector<int> a, int trg)
+{
+	int start = 0;
+	int end = n;
+
+	while (start < end)
+	{
+		int mid = (start + end) / 2;
+
+		if (a[mid] >= trg)
+			end = mid;
+		else
+			start = mid + 1;
+	}
+	return (start);
 }
 
 int main()
@@ -58,7 +58,7 @@ int main()
 	for (int i = 0; i < m; i++)
 	{
 		cin >> k;
-		cout << binary_search(n, a, k) << '\n';
+		cout << upper_bound(n, a, k) - lower_bound(n, a, k) << '\n';
 	}
 
 	return (0);
