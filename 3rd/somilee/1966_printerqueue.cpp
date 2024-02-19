@@ -29,16 +29,8 @@ int main()
 		for(j = 0; j < p; j ++)
 		{
 			if(q.front() > p_num)
-			{
-				q.pop();
 				sum += 1;
-			}
-			else
-			{
-				int t = q.front();
-				q.pop();
-				q.push(t);
-			}
+			q.pop();
 		}
 		q.pop();
 		while(q.front() <= p_num && !q.empty())
