@@ -35,6 +35,18 @@
 
 [백준 문제집](https://www.acmicpc.net/workbook/by/BaaaaaaaaaaarkingDog)
 
+### 2024-02-22 10회차 : 투 포인터
+
+[투 포인터 개념 강의](https://www.youtube.com/watch?v=I_0aAKzu0m8&t=7s)
+
+[실버 1] rotate_sushi_2531 : [회전 초밥](https://www.acmicpc.net/problem/2531)
+
+[실버 1] hate_dup_20922 : [겹치는 건 싫어](https://www.acmicpc.net/problem/20922)
+
+[골드 5] longest_even_continuous_partial_sequence_22862 : [가장 긴 짝수 연속한 부분 수열](https://www.acmicpc.net/problem/22862)
+
+[골드 3] lets_make_snowman_20366 : [같이 눈사람 만들래?](https://www.acmicpc.net/problem/20366)
+
 ### 2024-02-19 9회차 : 이분탐색
 
 [이분탐색 개념 강의](https://www.youtube.com/watch?v=3TkaOKHxHnI)
