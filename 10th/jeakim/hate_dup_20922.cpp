@@ -7,16 +7,17 @@ int count_max(int N, int K, int arr[200000])
 {
 	int max_len = 0;
 	
-	for (int st = 0; st < N; st++){
+	for (int st = 0, en = 0; en < N && st < N; st++, en++){
 		int dup[100001] = {0};
 		int len = 0;
-		for (int sub = st; sub < N; sub++){
-			dup[arr[sub]]++;
-			if (dup[arr[sub]] > K)
+		for (; en < N; en++){
+			dup[arr[en]]++;
+			if (dup[arr[en]] > K)
 				break;
 			len++;
 		}
 		max_len = max(max_len, len);
+		dup[arr[st]]--;
 	}
 	return (max_len);
 }
