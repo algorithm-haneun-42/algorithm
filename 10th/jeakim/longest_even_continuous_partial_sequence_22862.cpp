@@ -8,7 +8,7 @@ int max_len(int N, int K, int arr[1000000])
 	int max_len = 0;
 
 	for (int st = 0; st < N; st++){
-		int first;
+		int first = st;
 		int cnt = 0;
 		int len = 0;
 		for (int sub = st; sub < N && cnt <= K; sub++){
@@ -20,8 +20,7 @@ int max_len(int N, int K, int arr[1000000])
 				len++;
 		}
 		max_len = max(max_len, len);
-		st = first + 1;
-		cout << st << ' ' << len << endl;
+		st = first;
 	}
 	return (max_len);
 }
