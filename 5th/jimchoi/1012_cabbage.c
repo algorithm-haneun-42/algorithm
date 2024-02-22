@@ -1,87 +1,22 @@
 
 #include <stdio.h>
+#include <stdlib.h>
+
+void bfs(int x, int y);
 
 typedef struct	__node {
 	int            x;
-	int            y;
-	struct __node    *next; // 두ㅣ
-	struct __node    *prev; //앞
-	int					idx;
-}	node;
-
-typedef struct	{
-	node        *front;
-	node        *rear;
-	int        size;
-	char		name;
-}	Qlist;
-
-void add_front(Qlist *list, int x, int y)
-{
-	node	*new_node;
-
-	new_node = (node *)malloc(sizeof(node));
-	new_node->x = x;
-	new_node->y = y;
-	new_node->next = NULL;
-	new_node->prev = NULL;
-	if (list->size == 0) {
-		list->front = new_node;
-		list->rear = new_node;
-	} else {
-		new_node->next = list->front;
-		list->front->prev = new_node;
-		list->front = new_node;
-	}
-	list->size++;
-	new_node->idx = list->size;
-}
-
-void add_rear(Qlist *list, int x, int y)
-{
-	node	*new_node;
-
-	new_node = (node *)malloc(sizeof(node));
-	new_node->x = x;
-	new_node->y = y;
-	new_node->next = NULL;
-	new_node->prev = NULL;
-	if (list->size == 0) {
-		list->front = new_node;
-		list->rear = new_node;
-	} else {
-		list->rear->next = new_node;
-		new_node->prev = list->rear;
-		list->rear = new_node;
-	}
-	list->size++;
-}
-
-void del_front(Qlist *list)
-{
-	node	*tmp;
-
-	if (list->size > 1)
-	{
-		tmp = list->front;
-		list->front = list->front->next;
-		list->front->prev = NULL;
-		free(tmp);
-	}
-	else
-		free(list->front);
-	list->size--;
-}
-
-
+	int            y;//앞
+	int			vis;
+}	Q;
 
 int arr[50][50] = {0,};
 int vis[50][50] = {0,};
+Q	q[2500];
+int T, M, N, K, cnt;
 
-int T, M, N, K;
 int main()
 {
-	Qlist *Q = malloc(sizeof(Qlist)); 
 	int x; 
 	int y;
 	int i = 0;
@@ -90,7 +25,6 @@ int main()
 	while(T--)
 	{
 		scanf("%d %d %d", &M, &N, &K);
-
         while(i < K)
 		{
 			scanf("%d %d", &x, &y);
@@ -98,21 +32,25 @@ int main()
 			i++;
 		}
 		i = 0;
-		// while(i < M * N)
-		// {
-
-		// }
-		add_front(Q, x, y);
-		while(Q->front != 0)
+		for(i=0; i< M; i++)
 		{
-			vis[Q->front->x][Q->front->y] = 1;
+			for(int j=0; j< N; j++)
+			{
+				if(arr[i][j] == 0 && vis[j][j] == 0)
+				{
+					q[]
+					bfs(x, y);
+					cnt++;
+				}
+			}
 		}
 	}
 
 }
 
-void plantCabbage(int x, int y)
+void bfs(int x, int y)
 {
+	vis[x][y] = 1;
 
 }
 
