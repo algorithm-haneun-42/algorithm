@@ -35,6 +35,18 @@
 
 [백준 문제집](https://www.acmicpc.net/workbook/by/BaaaaaaaaaaarkingDog)
 
+### 2024-02-26 11회차 : 시뮬레이션
+
+[시뮬레이션 개념 강의](https://www.youtube.com/watch?v=jZwf4OPlhtk)
+
+[실버 1] truck_13335 : [트럭](https://www.acmicpc.net/problem/13335)
+
+[실버 1] insert_operator_14888 : [연산자 끼워넣기](https://www.acmicpc.net/problem/14888)
+
+[실버 1] start_and_link_14889 : [스타트와 링크](https://www.acmicpc.net/problem/14889)
+
+[골드 3] baby_shark_16236 : [아기 상어](https://www.acmicpc.net/problem/16236)
+
 ### 2024-02-22 10회차 : 투 포인터
 
 [투 포인터 개념 강의](https://www.youtube.com/watch?v=I_0aAKzu0m8&t=7s)
