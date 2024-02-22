@@ -5,7 +5,7 @@ using namespace std;
 
 #define X first
 #define Y second
-#define MAX 100
+#define MAX 300
 
 int board[MAX][MAX];
 int vis[MAX][MAX] = {0, };
@@ -25,6 +25,7 @@ void bft(int x, int y)
 	{
 		int tmp_x = Q.front().first;
 		int tmp_y = Q.front().second;
+		vis[tmp_x][tmp_y] = 1;
 		Q.pop();
 		count = 0;
 		for(int i=0; i<4; i++)
@@ -33,20 +34,18 @@ void bft(int x, int y)
             int ny = tmp_y+dy[i];
             if(nx<0 || nx>=n || ny<0 || ny>=n) continue;
 			if(board[nx][ny] <= 0 && vis[nx][ny] == 0)
-			{
 				count++;
-				vis[nx][ny] = 1;
-			}
-            if(board[nx][ny] > 0 && vis[nx][ny] == 0)
-            {
+			if(board[nx][ny] <= 0 && vis[nx][ny] == 1)
+				continue;
+            // if(board[nx][ny] > 0 && vis[nx][ny] == 0)
+            // {
 				Q.push({nx,ny});
 				vis[nx][ny]=1;
-				// cnt++;
-			}
+			// }
 				
 				
 		}
-			board[tmp_x][tmp_y] -= 1;
+			board[tmp_x][tmp_y] -= count;
 	}
 }
 
@@ -76,12 +75,12 @@ int main(void) {
 			cin >> board[i][j];
 		}
     }
-	for(int h = 0; h < 10; h++)
+	for(int h = 0; 1; h++)
 	{
 		count = 0;
 		for(int i=0; i<n; i++)
 		{
-			for(int j=0; j<n; j++)
+			for(int j=0; j<m; j++)
 			{
 				if(board[i][j] > 0 &&  vis[i][j] == 0)
 				{
@@ -90,18 +89,19 @@ int main(void) {
 				}
 			}
 		}
-		// cout << h << "번째" << endl;
-		// print_board();
 
 		if (count > 1)
 		{
-			cout << h << endl;
-			return 0;
+			result = h;
+			break;
 		}
 		if (count == 0)
+		{
+			result = 0;
 			break;
-		fill(&vis[0][0], &vis[n][n], 0);
+		}
+		fill(&vis[0][0], &vis[n][m], 0);
 	}
-	cout << 0 << endl;
+	cout << result << endl;
     return 0;
 }
