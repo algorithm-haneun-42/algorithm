@@ -35,6 +35,18 @@
 
 [백준 문제집](https://www.acmicpc.net/workbook/by/BaaaaaaaaaaarkingDog)
 
+### 2024-02-29 12회차 : 백트래킹
+
+[백트래킹 개념 강의](https://www.youtube.com/watch?v=Enz2csssTCs)
+
+[실버 3] NM1_15649 : [N과 M(1)](https://www.acmicpc.net/problem/15649)
+
+[실버 2] NM12_15666 : [N과 M(12)](https://www.acmicpc.net/problem/15666)
+
+[골드 4] NQueen_9663 : [N-Queen](https://www.acmicpc.net/problem/9663)
+
+[골드 5] make_password_1759 : [암호 만들기(보너스)](https://www.acmicpc.net/problem/1759)
+
 ### 2024-02-26 11회차 : 시뮬레이션
 
 [시뮬레이션 개념 강의](https://www.youtube.com/watch?v=jZwf4OPlhtk)
