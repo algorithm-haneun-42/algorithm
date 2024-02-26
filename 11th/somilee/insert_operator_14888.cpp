@@ -6,18 +6,18 @@ int n;
 int a[11];
 int c[4];
 int sum = 0;
-int max;
-int min;
+int max_s;
+int min_s;
 
 void do_calculate(int i, int *c)
 {
 	if (c[0] <= 0 && c[1] <= 0 && c[2] <= 0 && c[3] <= 0)
 	{
 		//cout << sum <<'\n';
-		if (max < sum)
-			max = sum;
-		if (min > sum)
-			min = sum;
+		if (max_s < sum)
+			max_s = sum;
+		if (min_s > sum)
+			min_s = sum;
 		return ;
 	}
 	if (c[0] > 0)
@@ -68,7 +68,8 @@ int main(void)
 	for(int i = 0; i < 4; i++)
 		cin >> c[i];
 	sum = a[0];
-	max = -2147483648;
-	min = 2147483647;
+	max_s = -2147483648;
+	min_s = 2147483647;
 	do_calculate(1, c);
+	cout << max_s << '\n' << min_s;
 }
