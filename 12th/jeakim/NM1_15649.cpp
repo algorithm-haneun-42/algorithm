@@ -8,7 +8,7 @@ void back(int N, int M, int idx, int dup[9], int num[8])
 	{
 		for (int i = 0; i < M; i++)
 			cout << num[i] << ' ';
-		cout << endl;
+		cout << '\n';
 		return ;
 	}
 	for(int i = 1; i <= N; i++)
@@ -30,7 +30,7 @@ int main()
 	cout.tie(0);
 
 	int N, M;
-	int dup[8] = {0}; //중복체크
+	int dup[9] = {0}; //중복체크
 	int num[8]; //실제 숫자
 
 	cin >> N >> M;
