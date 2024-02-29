@@ -4,7 +4,6 @@ import java.util.*;
 public class MakePassword1759 {
 	static int l, c, vowelCnt, consonantCnt;
 	static char[] arr, pwd;
-	static boolean[] v;
 	static StringBuilder sb = new StringBuilder();
 	static char[] vowels = {'a', 'e', 'i', 'o', 'u'};
 	public static void main(String args[]) throws IOException{
@@ -14,7 +13,6 @@ public class MakePassword1759 {
 		c = Integer.parseInt(st.nextToken());
 		arr = br.readLine().replace(" ", "").toCharArray();
 		pwd = new char[l];
-		v = new boolean[c];
 		Arrays.sort(arr);
 		reculsion(0, 0);
 		System.out.println(sb);
@@ -27,14 +25,10 @@ public class MakePassword1759 {
 			return ;
 		}
 		for (int i = idx; i < c; i++) {
-			if (!v[i]) {
-				pwd[depth] = arr[i];
-				v[i] = true;
-				check(pwd[depth], false);
-				reculsion(i + 1, depth + 1);
-				v[i] = false;
-				check(pwd[depth], true);
-			}
+			pwd[depth] = arr[i];
+			check(pwd[depth], false);
+			reculsion(i + 1, depth + 1);
+			check(pwd[depth], true);
 		}
 	}
 	static void check(char c, boolean flag) {
