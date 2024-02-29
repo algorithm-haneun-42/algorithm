@@ -24,7 +24,7 @@ void queen(int N, int arr[15], int idx, int &cnt)
 	for (int i = 0; i < N; i++){
 		arr[idx] = i;
 		if (check(N, arr, idx) == 1)
-			queen(N, arr, i + 1, cnt);
+			queen(N, arr, idx + 1, cnt);
 	}
 }
 
