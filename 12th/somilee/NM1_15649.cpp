@@ -16,10 +16,17 @@ int num_len(int num)
 }
 int check_digit(int num, int i)
 {
-	for(int div = 10000000; div > 0; div /= 10)
-		if (num/div == i)
+	for(int div = 10000000; div > 0; div /= 10)	
+		if (num/div%10 == i)
 			return (1);
 	return (0);
+}
+void print_num(int num)
+{
+	for(int div = 10000000; div > 0; div /= 10)
+		if (num/div%10 != 0)
+			cout << num/div%10 << ' ';
+	cout << '\n';
 }
 
 void get_sequence(int num)
@@ -29,7 +36,7 @@ void get_sequence(int num)
 			if (check_digit(num, i) == 0)
 					get_sequence(num*10 + i);
 	if (num_len(num) == m)
-		cout << num << '\n';
+		print_num(num);
 	else
 		return;	
 }
