@@ -35,6 +35,18 @@
 
 [백준 문제집](https://www.acmicpc.net/workbook/by/BaaaaaaaaaaarkingDog)
 
+### 2024-03-04 13회차 : 해시
+
+[해시 개념 강의](https://www.youtube.com/watch?v=1-k-D2AYY0I)
+
+[실버 4] find_password_17219 : [비밀번호 찾기](https://www.acmicpc.net/problem/17219)
+
+[실버 3] fashionist_shin_9375 : [패션왕 신해빈](https://www.acmicpc.net/problem/9375)
+
+[실버 3] Number_of_different_substring_strings_11478 : [서로 다른 부분 문자열의 개수](https://www.acmicpc.net/problem/11478)
+
+[골드 5] infinite_sequence_1351 : [무한 수열(보너스)](https://www.acmicpc.net/problem/1351)
+
 ### 2024-02-29 12회차 : 백트래킹
 
 [백트래킹 개념 강의](https://www.youtube.com/watch?v=Enz2csssTCs)
