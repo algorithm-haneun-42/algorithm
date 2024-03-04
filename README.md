@@ -35,6 +35,18 @@
 
 [백준 문제집](https://www.acmicpc.net/workbook/by/BaaaaaaaaaaarkingDog)
 
+### 2024-03-07 14회차 : BFS 복습
+
+[BFS 개념 강의](https://www.youtube.com/watch?v=ftOmGdm95XI&t=3s)
+
+[실버 1] get_area_2583 : [영역 구하기](https://www.acmicpc.net/problem/2583)
+
+[실버 1] startlink_5014 : [스타트링크](https://www.acmicpc.net/problem/5014)
+
+[골드 3] break_wall_14442 : [벽 부수고 이동하기 2](https://www.acmicpc.net/problem/14442)
+
+[골드 3] cheese_2638 : [치즈(보너스)](https://www.acmicpc.net/problem/2638)
+
 ### 2024-03-04 13회차 : 해시
 
 [해시 개념 강의](https://www.youtube.com/watch?v=1-k-D2AYY0I)
