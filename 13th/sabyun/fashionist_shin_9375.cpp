@@ -12,16 +12,15 @@ void printMap(const map<string, int>& myMap) {
     for (auto it = myMap.begin(); it != myMap.end(); ++it) {
         //cout << "Key: " << it->first << ", Value: " << it->second << '\n';
 		if(it ==myMap.begin())
-			num = it->second;
+			num = (it->second) + 1;
 		else
-			num*= it->second;
+			num*= (it->second) + 1;
 		i++;
     }
-	//cout << "i =" <<i<<'\n';
-	if (i == 1)
-		num *=0;
-	total +=num;
-	cout << total << '\n';
+	num-=1;
+	if (num < 0)
+		num = 0;
+	cout << num << '\n';
 
 }
 int main() {
