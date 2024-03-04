@@ -15,11 +15,12 @@ public class InfiniteSequence1351 {
 		System.out.println(recul(n));
 	}
 	static long recul(long n) {
-		if (n == 0) {
-			return map.get(0L);
+		if (map.containsKey(n)) {
+			return map.get(n);
 		}
 		long tmp1 = map.containsKey(n / p) ? map.get(n / p) : recul(n / p);
 		long tmp2 = map.containsKey(n / q) ? map.get(n / q) : recul(n / q);
+		map.put(n, tmp1 + tmp2);
 		return tmp1 + tmp2;
 	}
 }
