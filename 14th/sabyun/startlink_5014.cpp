@@ -6,7 +6,7 @@
 
 using namespace std;
 #define x first
-#define y second;
+#define y second
 
 int main() {
 	int f ,s ,g , u ,d  ; cin >> f >> s >> g >> u >> d;
