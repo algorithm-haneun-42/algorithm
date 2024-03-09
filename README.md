@@ -37,7 +37,7 @@
 
 ### 2024-03-11 15회차 : dp 복습
 
-[실버 3] fibonacci_function_1003 : [피보나치](https://www.acmicpc.net/problem/1003)
+[실버 3] fibonacci_function_1003 : [피보나치 함수](https://www.acmicpc.net/problem/1003)
 
 [실버 3] resign_14501 : [퇴사](https://www.acmicpc.net/problem/14501)
 
