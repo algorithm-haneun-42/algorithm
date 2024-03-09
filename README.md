@@ -39,9 +39,9 @@
 
 색상환
 
-피보나치
+[] fibonacci_ : [피보나치]
 
-퇴사
+[실버 3] resign_14501 : [퇴사](https://www.acmicpc.net/problem/14501)
 
 ### 2024-03-07 14회차 : BFS 복습
 
