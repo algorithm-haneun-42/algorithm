@@ -35,6 +35,18 @@
 
 [백준 문제집](https://www.acmicpc.net/workbook/by/BaaaaaaaaaaarkingDog)
 
+### 2024-03-14 16회차 : 우선순위 큐
+
+[우선순위 큐 개념강의](https://youtube.com/watch?v=_9mbqoF9qzc)
+
+[실버 2] minimum_heap_1927 : [최소 힙](https://www.acmicpc.net/problem/1927)
+
+[실버 2] Nth_largest_number_2075 : [N번째 큰 수](https://www.acmicpc.net/problem/2075)
+
+[실버 2] maximum_heap_11279 : [최대 힙](https://www.acmicpc.net/problem/11279)
+
+[골드 4] merge_file_3_13975 : [파일 합치기 3](https://www.acmicpc.net/problem/13975)
+
 ### 2024-03-11 15회차 : dp 복습
 
 [실버 3] fibonacci_function_1003 : [피보나치 함수](https://www.acmicpc.net/problem/1003)
