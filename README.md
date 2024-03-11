@@ -41,7 +41,7 @@
 
 [실버 3] resign_14501 : [퇴사](https://www.acmicpc.net/problem/14501)
 
-[골드 3] color_circle_2484 : [색상환](https://www.acmicpc.net/problem/2482)
+[골드 3] color_circle_2482 : [색상환](https://www.acmicpc.net/problem/2482)
 
 ### 2024-03-07 14회차 : BFS 복습
 
