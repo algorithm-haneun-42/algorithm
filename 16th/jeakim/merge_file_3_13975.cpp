@@ -3,15 +3,15 @@
 
 using namespace std;
 
-long count_num(priority_queue<int, vector<int>, greater<int> > pq)
+long count_num(priority_queue<long, vector<long>, greater<long> > &pq)
 {
 	long total = 0;
 
 	while (pq.size() > 1)
 	{
-		int a = pq.top();
+		long a = pq.top();
 		pq.pop();
-		int b = pq.top();
+		long b = pq.top();
 		pq.pop();
 		total += a + b;
 		pq.push(a + b);
@@ -28,7 +28,7 @@ int main()
 	int t;
 	cin >> t;
 	for (int i = 0; i < t; i++){
-		priority_queue<int, vector<int>, greater<int> > pq;
+		priority_queue<long, vector<long>, greater<long> > pq;
 		int n;
 		cin >> n;
 		for (int j = 0; j < n; j++){
