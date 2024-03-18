@@ -1,13 +1,17 @@
 #include <iostream>
 #include <vector>
+#include <queue>
 
 using namespace std;
 
-void bfs(vector<int> g[101], int visited[101], int idx, int &cnt)
+void bfs(vector<int> g[101], int visited[101], int idx, int &cnt, int point[101])
 {
 	visited[idx] = 1;
 	for (int i = 0; i < g[idx].size(); i++){
-		if ()
+		if (visited[g[idx][i]] == 0){
+			cnt++;
+
+		}
 	}
 }
 
@@ -35,7 +39,8 @@ int main()
 	}
 	for (int i = 1; i <= n; i++){
 		int visited[101] = {0};
-		bfs(g, visited, i, point[i]);
+		int cnt = 0;
+		bfs(g, visited, i, cnt, point);
 		for (int k = 1; k <= n; k++)
 			cout << visited[k] << ' ';
 		cout << '\n';
