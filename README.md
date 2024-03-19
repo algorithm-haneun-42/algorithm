@@ -39,7 +39,7 @@
 
 [이진 탐색 트리 개념강의](https://www.youtube.com/watch?v=IKnjzmyk70U&t=1308s)
 
-[골드 4] doubly_priority_queue_7663 : [이중 우선순위 큐](https://www.acmicpc.net/problem/7662)
+[골드 4] doubly_priority_queue_7662 : [이중 우선순위 큐](https://www.acmicpc.net/problem/7662)
 
 [골드 2] jewel_thief_1202 : [보석 도둑](https://www.acmicpc.net/problem/1202)
 
