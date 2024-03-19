@@ -35,6 +35,18 @@
 
 [백준 문제집](https://www.acmicpc.net/workbook/by/BaaaaaaaaaaarkingDog)
 
+### 2024-03-21 18회차 : 이진 탐색 트리
+
+[이진 탐색 트리 개념강의](https://www.youtube.com/watch?v=IKnjzmyk70U&t=1308s)
+
+[골드 4] doubly_priority_queue_7662 : [이중 우선순위 큐](https://www.acmicpc.net/problem/7662)
+
+[골드 2] jewel_thief_1202 : [보석 도둑](https://www.acmicpc.net/problem/1202)
+
+[골드 4] problem_recommend_system_v1_21939 : [문제 추천 시스템 Version 1](https://www.acmicpc.net/problem/21939)
+
+[플래티넘 5] binary_search_tree_1539 : [이진 검색 트리](https://www.acmicpc.net/problem/1539)
+
 ### 2024-03-18 17회차 : 그래프
 
 [그래프 개념강의](https://www.youtube.com/watch?v=9iI6fuOLiLg)
