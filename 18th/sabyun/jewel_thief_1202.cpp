@@ -4,12 +4,6 @@
 #include <algorithm>
 using namespace std;
 
-bool cmp(pair<int,int> &a, pair<int,int> &b)
-{
-	if(a.second != b.second)
-		return a.second < b.second;
-	return a.first >= b.first;
-}
 int main() {
 	ios::sync_with_stdio(0);
 	cin.tie(0);
@@ -25,25 +19,19 @@ int main() {
 		int won; cin >> won; 
 		m[i] = make_pair(won,kg);
 	}
-	sort(m,m+n,cmp);
+	sort(m,m+n);
 	for(int i = 0; i < k; i++)
 	{
 		int a; cin >> a;
 		bag.insert(a);		
 	}
-	// for(int i = 0; i < n; i++)
-	// 	cout << "i = " << i << " " << "won = " << m[i].second << "kg == "<< m[i].first << endl;
-	for(int a : bag)
-	{
-		for(int i = 0; i < n; i++)
+	for(int i = n-1; i >=0; i--)
 		{
-			if(m[i].second <= a && m[i].first != 0)
-			{
-				worth += m[i].first;
-				m[i] = make_pair(0,0);
-				break;
-			}
+			int kg,won; kg = m[i].second; won = m[i].first;
+			auto it = bag.lower_bound(kg);
+			if(it == bag.end()) continue;
+			worth += won;
+			bag.erase(it);
 		}
-	}
 	cout << worth << endl;
 }
