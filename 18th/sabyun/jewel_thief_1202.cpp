@@ -6,9 +6,9 @@ using namespace std;
 
 bool cmp(pair<int,int> &a, pair<int,int> &b)
 {
-	if(a.first != b.first)
-		return a.first > b.first;
-	return a.second > b.second;
+	if(a.second != b.second)
+		return a.second < b.second;
+	return a.first >= b.first;
 }
 int main() {
 	ios::sync_with_stdio(0);
@@ -31,16 +31,16 @@ int main() {
 		int a; cin >> a;
 		bag.insert(a);		
 	}
-	int idx = 0;
+	// for(int i = 0; i < n; i++)
+	// 	cout << "i = " << i << " " << "won = " << m[i].second << "kg == "<< m[i].first << endl;
 	for(int a : bag)
 	{
-		for(int i = idx; i < n; i++)
+		for(int i = 0; i < n; i++)
 		{
 			if(m[i].second <= a && m[i].first != 0)
 			{
-			//	cout << "i = " << i << " " << m[i].second << m[i].first << endl;
 				worth += m[i].first;
-				idx = i+1;
+				m[i] = make_pair(0,0);
 				break;
 			}
 		}
