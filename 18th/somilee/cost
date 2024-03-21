@@ -1,19 +1,15 @@
-2
-7
-I 16
-I -5643
-D -1
-D 1
-D 1
-I 123
-D -1
-9
-I -45
-I 653
-D 1
-I -642
-I 45
-I 97
-D 1
-D -1
-I 333
+5
+1000 1
+1001 2
+19998 78
+2667 37
+2042 55
+8
+add 1402 59
+recommend 1
+solved 1000
+solved 19998
+recommend 1
+recommend -1
+solved 1001
+recommend -1
