@@ -35,6 +35,18 @@
 
 [백준 문제집](https://www.acmicpc.net/workbook/by/BaaaaaaaaaaarkingDog)
 
+### 2024-04-01 19회차 : 위상 정렬
+
+[위상 정렬 개념강의](https://www.youtube.com/watch?v=Th-gLZUrd04)
+
+[골드 3] line_up_2252 : [줄 세우기](https://www.acmicpc.net/problem/2252)
+
+[골드 3] music_program_2623 : [음악프로그램](https://www.acmicpc.net/problem/2623)
+
+[골드 3] hoseok_21276 : [계보 복원가 호석](https://www.acmicpc.net/problem/21276)
+
+[골드 2] workbook_1766 : [문제집](https://www.acmicpc.net/problem/1766)
+
 ### 2024-03-21 18회차 : 이진 탐색 트리
 
 [이진 탐색 트리 개념강의](https://www.youtube.com/watch?v=IKnjzmyk70U&t=1308s)
