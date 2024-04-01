@@ -1,8 +1,11 @@
 #include <iostream>
 #include <vector>
 #include <queue>
+#include <algorithm>
 
 using namespace std;
+
+vector<int> son[1001];
 
 int find_num(int n, string name[1001], string s)
 {
@@ -32,8 +35,6 @@ void topology(int n, vector<int> g[1001], int idg[1001], string name[1001])
 	while (!q.empty()){
 		int cur = q.front();
 		q.pop();
-		if (family <= 0)
-			cout << name[cur] << ' ';
 		int cnt = 0;
 		for (int nxt : g[cur]){
 			idg[nxt]--;
@@ -42,15 +43,22 @@ void topology(int n, vector<int> g[1001], int idg[1001], string name[1001])
 				q.push(nxt);
 			}
 		}
-		if (family <= 0){
-			cout << cnt << ' ';
-			for (int nxt : g[cur]){
-				if (idg[nxt] == 0)
-					cout << name[nxt] << ' ';
-			}
-			cout << endl;
+		for (int nxt : g[cur]){
+			if (idg[nxt] == 0)
+				son[cur].push_back(nxt);
 		}
-		family--;
+		sort(son[cur].begin(), son[cur].end());
+	}
+}
+
+void print_son(int n, string name[1001])
+{
+	for (int i = 1; i <= n; i++){
+		cout << name[i] << ' ';
+		cout << son[i].size() << ' ';
+		for (int j = 0; j < son[i].size(); j++)
+			cout << name[son[i][j]] << ' ';
+		cout << endl;
 	}
 }
 
@@ -71,7 +79,7 @@ int main()
 		cin >> s;
 		name[i] = s;
 	}
-	sort(name, name + n);
+	sort(name + 1, name + n + 1);
 	cin >> m;
 	for (int i = 0; i < m; i++){
 		string x, y;
@@ -82,10 +90,7 @@ int main()
 		g[b].push_back(a);
 		idg[a]++;
 	}
-	cout << endl;
-	for (int i = 1; i <= n; i++)
-		cout << idg[i] << ' ';
-	cout << endl;
 	topology(n, g, idg, name);
+	print_son(n, name);
 	return (0);
 }
