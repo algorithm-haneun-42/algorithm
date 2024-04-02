@@ -6,47 +6,55 @@ public class Hoseok21276 {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		StringTokenizer st;
 		int n = Integer.parseInt(br.readLine());
-		HashMap<String, Integer> indegreeCnt = new HashMap<>();
-		Map<String, List<String>> gragh = new TreeMap<>();
+		Map<String, Integer> indegreeCnt = new TreeMap<>();
+		Map<String, List<String>> graph = new TreeMap<>();
 		st = new StringTokenizer(br.readLine());
 		for  (int i = 0; i < n; i++) {
 			String name = st.nextToken();
 			indegreeCnt.put(name, 0);
-			gragh.put(name, new ArrayList<String>());
+			graph.put(name, new ArrayList<String>());
 		}
 		int m = Integer.parseInt(br.readLine());
-		List<List<String>> tmp = new ArrayList<>();
 		for (int i = 0; i < m; i++) {
 			st = new StringTokenizer(br.readLine());
 			String descendant = st.nextToken();
 			String ancester = st.nextToken();
-			List<String> tmpList = new ArrayList<>();
-			tmpList.add(descendant);
-			tmpList.add(ancester);
-			tmp.add(tmpList);
 			indegreeCnt.put(descendant, indegreeCnt.get(descendant) + 1);
-			gragh.get(ancester).add(descendant);
+			graph.get(ancester).add(descendant);
 		}
-		for (int idx = 0; idx < m; idx++) {
-			for (String name : gragh.keySet()) {
-				//System.out.println(name + gragh.get(name) + " " + tmp.get(idx).get(0) + " " + tmp.get(idx).get(1));
-				if (gragh.get(name).contains(tmp.get(idx).get(0)) && gragh.get(name).contains(tmp.get(idx).get(1))) {
-					gragh.get(name).remove(tmp.get(idx).get(0));
+		
+		Map<String, PriorityQueue<String>> children = new TreeMap<>();
+		ArrayList<String> roots = new ArrayList<>();
+		Queue<String> q = new LinkedList<>();
+		StringBuilder sb = new StringBuilder();
+		for (String key : indegreeCnt.keySet()) {
+			children.put(key, new PriorityQueue<>());
+			if (indegreeCnt.get(key) == 0) {
+				q.add(key);
+				roots.add(key);
+			}
+		}
+		sb.append(roots.size()).append('\n');
+		for (String root : roots) {
+			sb.append(root).append(' ');
+		}
+		sb.append('\n');
+		while(!q.isEmpty()) {
+			String cur = q.poll();
+			List<String> curList = graph.get(cur);
+			for (int i = 0; i < curList.size(); i++) {
+				indegreeCnt.put(curList.get(i), indegreeCnt.get(curList.get(i)) - 1);
+				if (indegreeCnt.get(curList.get(i)) == 0) {
+					children.get(cur).add(curList.get(i));
+					q.add(curList.get(i));
 				}
 			}
 		}
-		StringBuilder sb = new StringBuilder();
-		for (String key : indegreeCnt.keySet()) {
-			if (indegreeCnt.get(key) == 0) {
-				sb.append(key).append(' ');
-			}
-		}
-		sb.append('\n');
-		for (String key : gragh.keySet()) {
-			sb.append(key).append(' ').append(gragh.get(key).size()).append(' ');
-			Collections.sort(gragh.get(key));
-			for (int i = 0; i < gragh.get(key).size(); i++) {
-				sb.append(gragh.get(key).get(i)).append(' ');
+
+		for (String key : children.keySet()) {
+			sb.append(key).append(' ').append(children.get(key).size());
+			for (String child : children.get(key)) {
+				sb.append(' ').append(child);
 			}
 			sb.append('\n');
 		}
