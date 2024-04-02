@@ -35,6 +35,19 @@
 
 [백준 문제집](https://www.acmicpc.net/workbook/by/BaaaaaaaaaaarkingDog)
 
+### 2024-04-04 20회차 : 최소 신장 트리
+
+[최소 신장 트리 개념강의](https://www.youtube.com/watch?v=4wA3bncb64E)
+
+[실버 4] sanguen_journey_9372 : [상근이의 여행](https://www.acmicpc.net/problem/9372)
+
+[골드 4] minimum_spaning_tree_1197 : [최소 스패닝 트리](https://www.acmicpc.net/problem/1197)
+
+[골드 4] city_split_plan_1647 : [도시 분할 계회](https://www.acmicpc.net/problem/1647)
+
+[골드 2] electricity_shortage_10423 : [전기가 부족해](https://www.acmicpc.net/problem/10423)
+
+
 ### 2024-04-01 19회차 : 위상 정렬
 
 [위상 정렬 개념강의](https://www.youtube.com/watch?v=Th-gLZUrd04)
