@@ -14,11 +14,12 @@ int main()
 	int v, e;
 	vector<pair<int, int> > g[10001];
 
+	cin >> v >> e;
 	for (int i = 0; i < e; i++){
 		int a, b, c;
 
 		cin >> a >> b >> c;
-		g[a].push_back(make_pair(a, b));
+		g[a].push_back(make_pair(c, b));
 		g[b].push_back(make_pair(c, a));
 	}
 
@@ -32,7 +33,6 @@ int main()
 		pq.push(make_tuple(nxt.first, 1, nxt.second));
 	while(cnt < v - 1){
 		int a, b, c;
-
 		tie(c, a, b) = pq.top();
 		pq.pop();
 		if (chk[b])
@@ -42,7 +42,7 @@ int main()
 		cnt++;
 		for(auto nxt : g[b])
 			if(!chk[nxt.second])
-				pq.push(tie(nxt.first, b, nxt.second));
+				pq.push(make_tuple(nxt.first, b, nxt.second));
 	}
 	cout << value << '\n';
 	return (0);
