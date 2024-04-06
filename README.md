@@ -35,6 +35,19 @@
 
 [백준 문제집](https://www.acmicpc.net/workbook/by/BaaaaaaaaaaarkingDog)
 
+### 2024-04-08 21회차 : 플로이드
+
+[플로이드 개념강의](https://www.youtube.com/watch?v=dDDy2bEZRA8)
+
+[골드 4] seokang_ground_14938 : [서강그라운드](https://www.acmicpc.net/problem/14938)
+
+[골드 4] exercise_1956 : [운동](https://www.acmicpc.net/problem/1956)
+
+[골드 2] floyd_11780 : [플로이드 2](https://www.acmicpc.net/problem/11780)
+
+[골드 2] curious_minho_1507 : [궁금한 민호](https://www.acmicpc.net/problem/1507)
+
+
 ### 2024-04-04 20회차 : 최소 신장 트리
 
 [최소 신장 트리 개념강의](https://www.youtube.com/watch?v=4wA3bncb64E)
