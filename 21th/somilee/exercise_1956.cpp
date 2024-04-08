@@ -24,7 +24,7 @@ int main(void)
 				d[i][j] = min(d[i][j], d[i][k] + d[k][j]);
 	for(int i = 1; i <= n; i++)
 		d[i][i] = 0;
-	int sum = INF;
+	int sum = INF+1;
 	for(int i = 1; i <= n; i++)
 	{
 		for(int j = 1; j <= n; j++)
@@ -33,8 +33,8 @@ int main(void)
 				sum = min(sum, d[i][j] + d[j][i]);
 		}
 	}
-	if (sum == INF)
-		cout << '-1';
+	if (sum == INF+1)
+		cout << "-1";
 	else
 		cout << sum;
 	return (0);
