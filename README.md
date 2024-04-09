@@ -35,6 +35,18 @@
 
 [백준 문제집](https://www.acmicpc.net/workbook/by/BaaaaaaaaaaarkingDog)
 
+### 2024-04-11 22회차 : 다익스트라
+
+[다익스트라 개념강의] (https://www.youtube.com/watch?v=o9BnvwgPT-o&list=PLtqbFd2VIQv4O6D6l9HcD732hdrnYb6CY&index=30&t=1049s)
+
+[골드 ?]
+
+[골드 ?]
+
+[골드 ?]
+
+[골드 ?]
+
 ### 2024-04-08 21회차 : 플로이드
 
 [플로이드 개념강의](https://www.youtube.com/watch?v=dDDy2bEZRA8)
