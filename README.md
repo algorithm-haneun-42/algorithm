@@ -39,13 +39,13 @@
 
 [다익스트라 개념강의](https://www.youtube.com/watch?v=o9BnvwgPT-o&list=PLtqbFd2VIQv4O6D6l9HcD732hdrnYb6CY&index=30&t=1049s)
 
-[골드 ?]  : []()
+[골드 5] get_minimum_1916 : [최소비용 구하기](https://www.acmicpc.net/problem/1916)
 
-[골드 ?]  : []()
+[골드 4] algospot_1261 : [알고스팟](https://www.acmicpc.net/problem/1261)
 
-[골드 ?]  : []()
+[골드 3] party_1238 : [파티](https://www.acmicpc.net/problem/1238)
 
-[골드 ?]  : []()
+[골드 2] hoseok_the_captain_of_alley : [골목 대장 호석 - 효율성 2](https://www.acmicpc.net/problem/20183)
 
 ### 2024-04-08 21회차 : 플로이드
 
