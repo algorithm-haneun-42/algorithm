@@ -12,7 +12,7 @@ int main()
 
 	int n, m;
 	vector<pair<int, int> > adj[1001];
-	const int INF = 1e5 + 1;
+	const int INF = 1e9 + 1;
 	int d[1001];
 
 	cin >> n >> m;
