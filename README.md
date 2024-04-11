@@ -45,7 +45,7 @@
 
 [골드 3] party_1238 : [파티](https://www.acmicpc.net/problem/1238)
 
-[골드 2] hoseok_the_captain_of_alley : [골목 대장 호석 - 효율성 2](https://www.acmicpc.net/problem/20183)
+[골드 2] hoseok_the_captain_of_alley_20183 : [골목 대장 호석 - 효율성 2](https://www.acmicpc.net/problem/20183)
 
 ### 2024-04-08 21회차 : 플로이드
 
