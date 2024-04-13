@@ -35,6 +35,16 @@
 
 [백준 문제집](https://www.acmicpc.net/workbook/by/BaaaaaaaaaaarkingDog)
 
+### 2024-04-15 23회차 : 기출문제풀이
+
+[레벨 2] oil_drilling : [pccp 기출문제 : 석유 시추](https://school.programmers.co.kr/learn/courses/30/lessons/250136)
+
+[레벨 2] analog_clock : [pccp 기출문제 : 아날로그 시계](https://school.programmers.co.kr/learn/courses/30/lessons/250135)
+
+[레벨 3] move_cart : [pccp 기출문제 : 수레 움직이기](https://school.programmers.co.kr/learn/courses/30/lessons/250134)
+
+[레벨 3] select_dice : [카카오 기출문제 : 주사위 고르기](https://school.programmers.co.kr/learn/courses/30/lessons/258709)
+
 ### 2024-04-11 22회차 : 다익스트라
 
 [다익스트라 개념강의](https://www.youtube.com/watch?v=o9BnvwgPT-o&list=PLtqbFd2VIQv4O6D6l9HcD732hdrnYb6CY&index=30&t=1049s)
