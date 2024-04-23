@@ -35,6 +35,15 @@
 
 [백준 문제집](https://www.acmicpc.net/workbook/by/BaaaaaaaaaaarkingDog)
 
+### 2024-04-25 24회차 : 랜덤문제풀이
+
+[레벨 2] tictactoe : [혼자서 하는 틱택토](https://school.programmers.co.kr/learn/courses/30/lessons/160585)
+
+[레벨 2] find_big_number_behind : [뒤에 있는 큰 수 찾기](https://school.programmers.co.kr/learn/courses/30/lessons/154539)
+
+[레벨 2] emoticon_sale_event : [(보너스)카카오 기출문제 : 이모티콘 할인행사](https://school.programmers.co.kr/learn/courses/30/lessons/150368)
+
+
 ### 2024-04-15 23회차 : 기출문제풀이
 
 [레벨 2] oil_drilling : [pccp 기출문제 : 석유 시추](https://school.programmers.co.kr/learn/courses/30/lessons/250136)
