@@ -31,10 +31,10 @@ void find_oil(vector<vector<int> > land)
                     q.pop();
                     visit[cur.first][cur.second] = cnt;
                     oil++;
-                    for (int k = 0; i < 4; k++){
-                        int x = cur.first + dx[i];
-                        int y = cur.second + dy[i];
-                        if (x < 0 || y < 0 || x >= n || y >= m)
+                    for (int k = 0; k < 4; k++){
+                        int x = cur.first + dx[k];
+                        int y = cur.second + dy[k];
+                        if (x < 0 || y < 0 || x > n - 1 || y > m - 1)
                             continue;
                         if (land[x][y] == 1 && visit[x][y] == 0){
                             visit[x][y] = 1;
@@ -69,8 +69,17 @@ int solution(vector<vector<int>> land) {
     m = land[0].size();
     oil_size.insert({0, 0});
     find_oil(land);
-    for (int i = 0; i < oil_size.size(); i++)
+    for (int i = 0; i < m; i++)
         answer = max(answer, count_oil(land, i));
-    
-    return answer;
+    return (answer);
 }
+
+// int main()
+// {
+//     vector<vector<int> > land;
+
+//     land = {{0, 0, 0, 1, 1, 1, 0, 0}, {0, 0, 0, 0, 1, 1, 0, 0}, {1, 1, 0, 0, 0, 1, 1, 0}, {1, 1, 1, 0, 0, 0, 0, 0}, {1, 1, 1, 0, 0, 0, 1, 1}};
+//     cout << solution(land);
+
+//     return (0);
+// }
