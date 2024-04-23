@@ -54,12 +54,12 @@ int count_oil(vector<vector<int>> land, int col)
     set<int> num;
     int oil = 0;
     
-    for (int i = 0; i < n; i++){
+    for (int i = 0; i < n; i++)
         num.insert(visit[i][col]);
-    }
     for (auto it = num.begin(); it != num.end(); it++){
-        oil += oil_size.find(*it);
+        oil += oil_size.find(*it)->second;
     }
+    return (oil);
 }
 
 int solution(vector<vector<int>> land) {
@@ -70,7 +70,7 @@ int solution(vector<vector<int>> land) {
     oil_size.insert({0, 0});
     find_oil(land);
     for (int i = 0; i < oil_size.size(); i++)
-        answer = max(answer, count_oil(land));
+        answer = max(answer, count_oil(land, i));
     
     return answer;
 }
