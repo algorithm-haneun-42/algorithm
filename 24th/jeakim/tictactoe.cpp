@@ -20,25 +20,33 @@ void count_num(vector<string> board){
 
 int check_bingo(vector<string> board, char c)
 {
+	int bingo = 0;
 	for (int i = 0; i < 3; i++){
 		if (board[i][0] == c && board[i][1] == c && board[i][2] == c)
-			return (1);
+			bingo++;
 		if (board[0][i] == c && board[1][i] == c && board[2][i] == c)
-			return (1);
+			bingo++;
 	}
 	if (board[0][0] == c && board[1][1] == c && board[2][2] == c)
-		return (1);
+		bingo++;
 	if (board[0][2] == c && board[1][1] == c && board[2][0] == c)
-		return (1);
-	return (-1);
+		bingo++;
+	return (bingo);
 }
 
 int check_board(vector<string> board){
+	int bingo_o = check_bingo(board, 'O');
+	int bingo_x = check_bingo(board, 'X');
+
 	if (cnt_o < cnt_x)
 		return (0);
 	if (cnt_o > cnt_x + 1)
 		return (0);
-	if ((cnt_o >=3 && cnt_x >= 3) && (check_bingo(board, 'O') == 1 && check_bingo(board, 'X') == 1))
+	if (bingo_o > 0 && cnt_o == cnt_x)
+		return (0);
+	if (bingo_x > 0 && cnt_o > cnt_x)
+		return (0);
+	if (bingo_o > 0 && bingo_x > 0)
 		return (0);
 	return (1);
 }
@@ -53,7 +61,9 @@ int solution(vector<string> board) {
 
 int main()
 {
-	vector<string> board = {"...", "...", "..."};
+	vector<string> board = {"OXO",
+"XOX",
+"OXO"};
 	int answer = solution(board);
 	cout << answer << endl;
 
