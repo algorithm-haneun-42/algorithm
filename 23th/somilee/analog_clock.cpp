@@ -7,6 +7,51 @@ using namespace std;
 double h = 1.0/120;
 double m = 1.0/10;
 double s = 6.0;
+double f_hs;
+double f_ms;
+
+int solution(int h1, int m1, int s1, int h2, int m2, int s2) {
+	int num = 0;
+	double start_sec = h1*60*60 + m1*60 + s1;
+	double end_sec = h2*60*60 + m2*60 + s2;
+	double t_sec = end_sec - start_sec;
+	if (start_sec*h >= s1*s)
+		f_hs = (start_sec*h- s1*s) / (s - h);
+	else
+		f_hs = (start_sec*h +360 - s1*s) / (s - h);
+	if((m1*60+s1)*m >= s1*s)
+		f_ms = ((m1*60 + s1)*m - s1*s) / (s - m);
+	else
+		f_ms = ((m1*60 + s1)*m +360 - s1*s) / (s - m);
+	cout << t_sec << ' ' << f_hs << ' ' << f_ms << '\n';
+	// if ((t_sec < f_hs) && (t_sec < f_ms)){
+	// 	if ((h1 == 0 || h1 == 12)&& m1 == 0 && s1 == 0)
+	// 		num ++;
+	// 	if ((h2 == 0 || h2 == 12)&& m2 == 0 && s2 == 0)
+	// 		num ++;
+	// 	if (h1 < 12 && h2 >= 12)
+	// 		num ++;
+	// 	return num;
+	// }
+
+	// if ((h1 == 0 || h1 == 12)&& m1 == 0 && s1 == 0)
+	// 	num --;
+	// if (h1 < 12 && h2 >= 12)
+	// 	num --;
+
+	if ((t_sec >= f_hs))
+		num += (t_sec - f_hs)*(s - h)/360 + 1;
+	if ((t_sec >= f_ms))
+		num += (t_sec - f_ms)*(s - m)/360 + 1;
+	
+    return num;
+}
+
+int main(void)
+{
+	cout << solution(	11, 59, 30, 12, 0, 0);
+}
+/*
 int solution(int h1, int m1, int s1, int h2, int m2, int s2) {
 	double h_num = (h2 - h1)/12.0;
 	double m_num = h_num * 12.0 + (m2 - m1)/60.0;
@@ -44,25 +89,5 @@ int solution(int h1, int m1, int s1, int h2, int m2, int s2) {
 	if (num == 0)
 		return -1;
     return num;
-}
-
-int main(void)
-{
-	solution(0,0,0,23,59,59);
-}
-/*
-int solution(int h1, int m1, int s1, int h2, int m2, int s2) {
-    int answer = -1;
-
-	double t_sec = (h2 - h1)*60*60 + (m2 - m1)*60 + s2 - s1;
-	if (h1*h >= s1*s)
-		double f_hs = (h1*h - s1*s)*120/719;
-	else
-		double f_hs = (h1*h - s1*s + 360)*120/719;
-	if (m1*m >= s1*s)
-		double f_ms = (m1*m - s1*s)*10/59;
-	else
-		double f_ms = (m1*m - s1*s + 360)*10/59;
-    return answer;
 }
 */
