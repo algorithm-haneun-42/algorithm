@@ -8,7 +8,7 @@ int solution(int storey) {
     int answer = 0;
 
 	while (storey > 0){
-		if (storey % 10 == 5 && storey / 10 % 10 > 5){
+		if (storey % 10 == 5 && (storey / 10) % 10 >= 5){
 			answer += 5;
 			storey += 10;
 		}
