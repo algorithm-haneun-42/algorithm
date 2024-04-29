@@ -35,7 +35,16 @@
 
 [백준 문제집](https://www.acmicpc.net/workbook/by/BaaaaaaaaaaarkingDog)
 
-### 2024-04-25 24회차 : 랜덤문제풀이
+### 2024-05-02 26회차 : 랜덤문제풀이
+
+[레벨 2] number_block : [숫자 블록](https://school.programmers.co.kr/learn/courses/30/lessons/12923)
+
+[레벨 2] joystick : [조이스틱](https://school.programmers.co.kr/learn/courses/30/lessons/42860)
+
+[레벨 2] skilltree : [스킬트리](https://school.programmers.co.kr/learn/courses/30/lessons/49993)
+
+
+### 2024-04-29 25회차 : 랜덤문제풀이
 
 [레벨 2] magical_elebator : [마법의 엘리베이터](https://school.programmers.co.kr/learn/courses/30/lessons/148653)
 
