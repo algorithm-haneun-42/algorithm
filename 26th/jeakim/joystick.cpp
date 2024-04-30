@@ -4,30 +4,9 @@
 
 using namespace std;
 
-// int front(string name)
-// {
-// 	int i = 0;
-// 	while(i < name.size() && name[i] != 'A'){
-// 		i++;
-// 	}
-// 	while(i < name.size() && name[i] == 'A')
-// 		i++;
-// 	return (i);
-// }
-
-// int from_back(string name)
-// {
-// 	int i = name.size() - 1;
-// 	while(i >= 0 && name[i] != 'A')
-// 		i--;
-// 	while(i >= 0 && name[i] == 'A')
-// 		i--;
-// 	return (i);
-// }
-
-int max_string_a(string name)
+vector<int> max_string_a(string name)
 {
-	int m = 0;
+	vector<int> idx_m(3);
 	int st, end;
 
 	st = 0;
@@ -36,33 +15,34 @@ int max_string_a(string name)
 		if (name[st] == 'A'){
 			while (end < name.size() && name[end] == 'A')
 				end++;
-			m = max(m, end - st);
+			idx_m[2] = max(idx_m[2], end - st);
+			idx_m[0] = idx_m[2] > end - st ? idx_m[0] : st;
+			idx_m[1] = idx_m[2] > end - st ? idx_m[1] : end;
 		}
 		st = end;
 	}
-	return (m);
+	return (idx_m);
 }
-
 
 int solution(string name) {
     int answer = 0;
 	int n = name.size();
-	int idx_m = max_string_a(name);	
+	vector<int> idx_m = max_string_a(name);	
 
 	for (int i = 0; i < n; i++)
 		answer += min(abs(name[i] - 'A'), abs('Z' - name[i] + 1));
-	if (idx_m == 0)
+	if (idx_m[2] == 0 || idx_m[2] == 1)
 		answer += n - 1;
-	else if (idx_m == n)
+	else if (idx_m[2] == n)
 		answer += 0;
 	else
-		answer += idx_m;
+		answer += idx_m[2];
     return answer;
 }
 
 int main()
 {
-	cout << solution("JEROEN") << endl;
+	cout << solution("BABABABABABBABABAAB") << endl;
 
 	return (0);
 }
