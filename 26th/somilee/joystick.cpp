@@ -20,23 +20,17 @@ int solution(string name) {
 			}
 			int a = i - n;
 			int b = name.length() - i;
-			if (a == 0) {
+			if (a == 0)
 				n = b;
-			}
 			else n = min(2*(a-1) + 1 + (b-1), 1 + 2*(b-1) + 1 + (a-1));
 			c_move = min(n, c_move);
+			cout << "c_move = " << c_move << ", i = " << i << '\n';
 		}
 		i++;
 	}
-	if (c_move == 1000) {
-		ans += name.length() - 1;
-	}
-	else ans += c_move;
-    return ans;
+	c_move = min((int)name.length() - 1, c_move);
+    return (ans + c_move);
 }
 int main(void) {
-	cout << solution("AJEROENAA") << '\n';
-	cout << solution("BAAAAA") << '\n';
-	cout << solution("JEROEN") << '\n';
-	
+    cout << solution("BBBABBB") << endl;
 }
