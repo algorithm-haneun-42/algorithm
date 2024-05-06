@@ -35,6 +35,14 @@
 
 [백준 문제집](https://www.acmicpc.net/workbook/by/BaaaaaaaaaaarkingDog)
 
+### 2024-05-09 28회차 : 랜덤문제풀이
+
+[레벨 2] intercept_system : [요격 시스템](https://school.programmers.co.kr/learn/courses/30/lessons/181188)
+
+[레벨 2] find_biggest_sqaure : [가장 큰 정사각형 찾기](https://school.programmers.co.kr/learn/courses/30/lessons/12905)
+
+[레벨 2] delivery : [택배 배달과 수거하기](https://school.programmers.co.kr/learn/courses/30/lessons/150369)
+
 ### 2024-05-06 27회차 : 랜덤문제풀이
 
 [레벨 2] more_spicy : [더 맵게](https://school.programmers.co.kr/learn/courses/30/lessons/42626)
