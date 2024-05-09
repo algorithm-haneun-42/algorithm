@@ -35,6 +35,16 @@
 
 [백준 문제집](https://www.acmicpc.net/workbook/by/BaaaaaaaaaaarkingDog)
 
+### 2024-05-13 29회차 : 랜덤문제풀이
+
+[레벨 2] cutting_rollcake : [롤케이크 자르기](https://school.programmers.co.kr/learn/courses/30/lessons/132265)
+
+[레벨 2] master_of_solo : [혼자 놀기의 달인](https://school.programmers.co.kr/learn/courses/30/lessons/131130)
+
+[레벨 2] mining_mineral : [광물 캐기](https://school.programmers.co.kr/learn/courses/30/lessons/172927)
+
+[레벨 2] that_song : [방금 그곡](https://school.programmers.co.kr/learn/courses/30/lessons/17683)
+
 ### 2024-05-09 28회차 : 랜덤문제풀이
 
 [레벨 2] intercept_system : [요격 시스템](https://school.programmers.co.kr/learn/courses/30/lessons/181188)
