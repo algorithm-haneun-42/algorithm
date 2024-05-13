@@ -43,8 +43,6 @@
 
 [레벨 2] delibery_box : [택배 상자](https://school.programmers.co.kr/learn/courses/30/lessons/131704)
 
-[레벨 2] make_big_number : [큰 수 만들기](https://school.programmers.co.kr/learn/courses/30/lessons/42883)
-
 ### 2024-05-13 29회차 : 랜덤문제풀이
 
 [레벨 2] cutting_rollcake : [롤케이크 자르기](https://school.programmers.co.kr/learn/courses/30/lessons/132265)
