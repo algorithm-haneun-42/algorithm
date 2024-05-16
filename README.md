@@ -35,6 +35,16 @@
 
 [백준 문제집](https://www.acmicpc.net/workbook/by/BaaaaaaaaaaarkingDog)
 
+### 2024-05-20 31회차 : 랜덤문제풀이
+
+[레벨 2] rob_ground : [땅따먹기](https://school.programmers.co.kr/learn/courses/30/lessons/12913)
+
+[레벨 2] modify_number : [숫자 변환하기](https://school.programmers.co.kr/learn/courses/30/lessons/154538)
+
+[레벨 2] different_bit_under_two : [2개 이하로 다른 비트](https://school.programmers.co.kr/learn/courses/30/lessons/77885)
+
+[레벨 2] biggest_number : [가장 큰 수](https://school.programmers.co.kr/learn/courses/30/lessons/42746)
+
 ### 2024-05-16 30회차 : 랜덤문제풀이
 
 [레벨 2] sale_event : [할인 행사](https://school.programmers.co.kr/learn/courses/30/lessons/131127)
