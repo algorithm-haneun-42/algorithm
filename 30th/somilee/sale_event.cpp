@@ -5,36 +5,31 @@
 
 using namespace std;
 
-int check_want(vector<string> want, vector<int> number, vector<string> discount, map<string, int> M) {
-	for(int i = 0; i < want.size(); i++) {
-		auto it = M.find(want[i]);
-		if (it == M.end() || it->second < number[i])
+int check_want(vector<int> number, int M[10]) {
+	for(int i = 0; i < number.size(); i++) {
+		if (number[i] > M[i])
 			return (0);
 	}
 	return (1);
 }
 
 int solution(vector<string> want, vector<int> number, vector<string> discount) {
-	map<string, int> M;
-	for(int i = 0; i < 10; i++) {
-		auto it = M.find(discount[i]);
-		if (it == M.end())
-			M[discount[i]] = 1;
-		else
-			it->second++;
-	}
+	int M[10] = {0};
+	for(int i = 0; i < 10; i++)
+		for(int j = 0; j < want.size(); j++)
+			if (discount[i] == want[j])
+				M[j]++;
 	int cnt = 0;
-	if (check_want(want, number, discount, M) == 1)
+	if (check_want(number, M) == 1)
 		cnt++;
 	for(int i = 10; i < discount.size(); i++) {
-		auto a = M.find(discount[i]);
-		if (a == M.end())
-			M[discount[i]] = 1;
-		else
-			a->second++;
-		auto b = M.find(discount[i-10]);
-		b->second--;
-		if (check_want(want, number, discount, M) == 1)
+		for(int j = 0; j < want.size(); j++) {
+			if (discount[i] == want[j])
+				M[j]++;
+			if (discount[i-10] == want[j])
+				M[j]--;
+		}
+		if (check_want(number, M) == 1)
 			cnt++;
 	}
     return cnt;
