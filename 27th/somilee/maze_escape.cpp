@@ -11,20 +11,18 @@ int dx[4] = {1, 0, -1, 0};
 int dy[4] = {0, 1, 0, -1};
 
 int find_road(char start, char end, vector<string> maps) {
-	pair<int, int> cur;
     int vis[105][105] = {0};
-	int n;
 	for(int i = 0; i < maps.size(); i++) {
 		for(int j = 0; j < maps[0].length(); j++) {
 			if (maps[i][j] == start) {
 				queue<pair<int, int> > Q;
 				vis[i][j] = 1;
 				Q.push({i, j});
-				n = 0;
+				int n = 0;
 				while (!Q.empty()) {
 					int q_size = Q.size();
 					for(int z = 0; z < q_size; z++){
-						cur = Q.front();
+						pair<int, int> cur = Q.front();
 						if (maps[cur.X][cur.Y] == end)
 							return (n);
 						Q.pop();
