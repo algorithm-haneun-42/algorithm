@@ -35,6 +35,15 @@
 
 [백준 문제집](https://www.acmicpc.net/workbook/by/BaaaaaaaaaaarkingDog)
 
+
+### 2024-05-23 32회차 : 랜덤문제풀이
+
+[레벨 2] life_boat : [구명보트](https://school.programmers.co.kr/learn/courses/30/lessons/42885)
+
+[레벨 2] rotate_bracket : [괄호 회전하기](https://school.programmers.co.kr/learn/courses/30/lessons/76502)
+
+[레벨 2] triangle_snail : [삼각 달팽이](https://school.programmers.co.kr/learn/courses/30/lessons/68645)
+
 ### 2024-05-20 31회차 : 랜덤문제풀이
 
 [레벨 2] rob_ground : [땅따먹기](https://school.programmers.co.kr/learn/courses/30/lessons/12913)
