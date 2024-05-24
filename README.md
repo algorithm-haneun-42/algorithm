@@ -39,7 +39,7 @@
 
 [레벨 2] expression_of_number : [숫자의 표현](https://school.programmers.co.kr/learn/courses/30/lessons/12924)
 
-[레벨 2] truck : [다리를 지나는 트럭(https://school.programmers.co.kr/learn/courses/30/lessons/42583)
+[레벨 2] truck : [다리를 지나는 트럭](https://school.programmers.co.kr/learn/courses/30/lessons/42583)
 
 [레벨 2] get_big_number : [큰 수 구하기](https://school.programmers.co.kr/learn/courses/30/lessons/42883)
 
