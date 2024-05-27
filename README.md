@@ -35,6 +35,14 @@
 
 [백준 문제집](https://www.acmicpc.net/workbook/by/BaaaaaaaaaaarkingDog)
 
+### 2024-05-30 34회차 : 랜덤문제풀이
+
+[레벨 2] log_jump : [멀리 뛰기](https://school.programmers.co.kr/learn/courses/30/lessons/12914)
+
+[레벨 2] vowel_dictionary : [모음 사전](https://school.programmers.co.kr/learn/courses/30/lessons/84512)
+
+[레벨 2] H_index : [H-index](https://school.programmers.co.kr/learn/courses/30/lessons/42747)
+
 ### 2024-05-27 33회차 : 랜덤문제풀이
 
 [레벨 2] expression_of_number : [숫자의 표현](https://school.programmers.co.kr/learn/courses/30/lessons/12924)
