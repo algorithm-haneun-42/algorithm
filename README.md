@@ -35,6 +35,24 @@
 
 [백준 문제집](https://www.acmicpc.net/workbook/by/BaaaaaaaaaaarkingDog)
 
+### 2024-05-27 33회차 : 랜덤문제풀이
+
+[레벨 2] expression_of_number : [숫자의 표현](https://school.programmers.co.kr/learn/courses/30/lessons/12924)
+
+[레벨 2] truck : [다리를 지나는 트럭](https://school.programmers.co.kr/learn/courses/30/lessons/42583)
+
+[레벨 2] get_big_number : [큰 수 구하기](https://school.programmers.co.kr/learn/courses/30/lessons/42883)
+
+[레벨 2] sum_of_partial_sequences : [연속된 부분 수열의 합](https://school.programmers.co.kr/learn/courses/30/lessons/178870)
+
+### 2024-05-23 32회차 : 랜덤문제풀이
+
+[레벨 2] life_boat : [구명보트](https://school.programmers.co.kr/learn/courses/30/lessons/42885)
+
+[레벨 2] rotate_bracket : [괄호 회전하기](https://school.programmers.co.kr/learn/courses/30/lessons/76502)
+
+[레벨 2] triangle_snail : [삼각 달팽이](https://school.programmers.co.kr/learn/courses/30/lessons/68645)
+
 ### 2024-05-20 31회차 : 랜덤문제풀이
 
 [레벨 2] rob_ground : [땅따먹기](https://school.programmers.co.kr/learn/courses/30/lessons/12913)

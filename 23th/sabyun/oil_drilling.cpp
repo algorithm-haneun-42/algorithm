@@ -106,6 +106,12 @@ int main()
 	{1, 0},
 	{1, 0}
 	};
-	cout << solution(inputList4) << endl;
+	vector<vector<int>> land2(500, vector<int>(500, 0));
+	for (int i = 0; i < 500; i++) {
+		for (int j = 0; j < 500; j++) {
+			land2[i][j] = (i + j) % 2;
+		}
+	}
+	cout << solution(land2) << endl;
 	return 0;
 }
