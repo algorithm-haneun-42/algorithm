@@ -35,14 +35,13 @@ using namespace std;
 //     return answer;
 // }
 
-
 vector<int> solution(vector<int> sequence, int k) {
     vector<int> answer;
 	int	num = 0;
 	int end = 0;
 
 	answer.push_back(0);
-	answer.push_back(1000);
+	answer.push_back(1000000);
 	for (int st = 0; st < sequence.size(); st++){
 		while(end < sequence.size() && num < k){
 			num += sequence[end];
