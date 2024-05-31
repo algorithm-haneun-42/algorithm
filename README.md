@@ -35,6 +35,16 @@
 
 [백준 문제집](https://www.acmicpc.net/workbook/by/BaaaaaaaaaaarkingDog)
 
+### 2024-06-03 35회차 : 랜덤문제풀이
+
+[레벨 2] next_big_number : [다음 큰 숫자](https://school.programmers.co.kr/learn/courses/30/lessons/12911)
+
+[레벨 2] jump_and_teleport : [점프와 순간이동](https://school.programmers.co.kr/learn/courses/30/lessons/12980)
+
+[레벨 2] select_mandarin : [귤 고르기](https://school.programmers.co.kr/learn/courses/30/lessons/138476)
+
+[레벨 2] stock_price : [주식가격](https://school.programmers.co.kr/learn/courses/30/lessons/42584)
+
 ### 2024-05-30 34회차 : 랜덤문제풀이
 
 [레벨 2] log_jump : [멀리 뛰기](https://school.programmers.co.kr/learn/courses/30/lessons/12914)
