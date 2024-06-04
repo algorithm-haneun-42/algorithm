@@ -35,6 +35,14 @@
 
 [백준 문제집](https://www.acmicpc.net/workbook/by/BaaaaaaaaaaarkingDog)
 
+### 2024-06-06 36회차 : 랜덤문제풀이
+
+[레벨 2] process : [프로세스](https://school.programmers.co.kr/learn/courses/30/lessons/42587)
+
+[레벨 2] matrix_multiplication : [행렬의 곱셈](https://school.programmers.co.kr/learn/courses/30/lessons/12949)
+
+[레벨 2] remove_in_pairs : [짝지어 제거하기](https://school.programmers.co.kr/learn/courses/30/lessons/12973)
+
 ### 2024-06-03 35회차 : 랜덤문제풀이
 
 [레벨 2] next_big_number : [다음 큰 숫자](https://school.programmers.co.kr/learn/courses/30/lessons/12911)
