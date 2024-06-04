@@ -14,10 +14,11 @@ int solution(vector<int> cit) {
 		if (n-i >= cit[i])
 			return cit[i];
 	}
-	return cit[0];
+	return 0;
 }
 
 int main(void) {
-	vector<int> citations = {0,1,2};
+	vector<int> citations = {0,0,0};
 	cout << solution(citations) <<'\n';
 }
+
