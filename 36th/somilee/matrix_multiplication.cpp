@@ -19,8 +19,8 @@ vector<vector<int>> solution(vector<vector<int>> arr1, vector<vector<int>> arr2)
 }
 
 int main(void) {
-	vector<vector<int>> arr1 = {{1,4}, {3,2}, {4,1}};
-	vector<vector<int>> arr2 = {{3,3}, {3,3}};
+	vector<vector<int>> arr1 = {{2,3,2}};
+	vector<vector<int>> arr2 = {{3,3}, {3,3}, {3,3}};
 
 	for(vector a : solution(arr1, arr2)) {
 		for(int b : a) {
@@ -29,13 +29,3 @@ int main(void) {
 		cout << endl;
 	}
 }
-
-/*
-1,4  3,3  15,15
-3,2  3,3  15,15
-4,1       15,15
-
-2,3,2  5,4,3  22,22
-4,2,4  2,4,1  36,
-3,1,4  3,1,1  29
-*/
