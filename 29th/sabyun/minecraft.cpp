@@ -40,14 +40,3 @@ int solution(vector<int> picks, vector<string> minerals) {
 	}	
     return answer;
 }
-
-1 1 1
-5 1 1
-25 5 1
-1 3 1
-
-
- 1 1 1 1 1, 1 5 5 5 5, 1
- 1 1 5 5 1 ,1 1 1 1 1, 1
-
-ston ston dia dia iron iron dia dia dia dia ston

@@ -9,18 +9,13 @@ using namespace std;
 int solution(vector<int> priorities, int location) {
 	queue<pair<int,int>> pq;
 	for(int i = 0; i < priorities.size(); i++)
-	{
 		pq.push({priorities[i],i});
-	}
 	sort(priorities.begin(),priorities.end(),std::greater<int>());
-	// for(int i =0; i < priorities.size(); i++)
-	// 	cout << priorities[i] << endl;
 	int i = 0;
 	while(1)
 	{
-		// cout << pq.front().first << pq.front().second << endl; 
 		if(pq.front().first >=priorities[0] && pq.front().second == location)
-			return i +1;
+			return i + 1;
 		if(pq.front().first >= priorities[0])
 		{
 			pq.pop();

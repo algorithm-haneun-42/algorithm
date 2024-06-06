@@ -30,21 +30,22 @@ void print_q(queue <string> a)
 }
 int is_aaa(queue <string> a, queue <string> b)
 {
-	print_q(a);
-	while(!a.empty())
-	{
-		if(!b.empty() && a.front() == b.front())
-		{
-			a.pop();
+	string sa;
+	string sb;
 
-			b.pop();
-		}
-		else
-			a.pop();
+	while (!a.empty())
+	{
+		sa += a.front();
+		a.pop();
 	}
-	if (!b.empty())
-		return 0;
-	return 1;
+	while (!b.empty())
+	{
+		sb += b.front();
+		b.pop();
+	}
+	if(sa.find(sb) != string::npos)
+		return 1;
+	return 0;
 }
 void replace_chr(string &str)
 {
@@ -58,6 +59,8 @@ void replace_chr(string &str)
 		str.replace(str.find("G#"), 2, "L");
 	while(str.find("A#") != string::npos)
 		str.replace(str.find("A#"), 2, "M");
+	while(str.find("B#") != string::npos)
+		str.replace(str.find("B#"), 2, "O");
 }
 string solution(string m, vector<string> musicinfos)
 {
@@ -82,7 +85,6 @@ string solution(string m, vector<string> musicinfos)
 		int e_h = stoi(e_time.substr(0, 2).c_str());
 		int e_m = stoi(e_time.substr(3, 4).c_str());
 		int t_min = ((e_h*60 +e_m) - (s_h *60 + s_m));
-		cout << t_min <<endl;
 		make_melody(temp, melody,0,t_min);
 		if (is_aaa(temp, ori_mel) == 1)
 		{
@@ -107,30 +109,8 @@ string solution(string m, vector<string> musicinfos)
 }
 int main()
 {
-	vector <string> case1 {"12:00,12:14,HELLO,CDEFGAB", "13:00,13:05,WORLD,ABCDEF"};
-	string melody1 = "ABCDEFG";
-	vector <string> case2 {"03:00,03:30,FOO,CC#B", "04:00,04:08,BAR,CC#BCC#BCC#B"};
-	string melody2 = "CC#BCC#BCC#BCC#B";
-	vector <string> case3 {"12:00,12:14,HELLO,C#DEFGAB", "13:00,13:05,WORLD,ABCDEF"};
-	string melody3 = "ABC";
-	vector <string> case4 {"04:00,04:03,NAME,ABC#D"};
-	string melody4 = "ABC#A";
-	vector <string> case5 {"12:00,12:01,Song,BA"};
-	string melody5 = "A";
-	vector <string> case6 {"12:00,12:04,Song,A#B"};
-	string melody6 = "BA";
-	vector <string> case7 {"12:00,12:01,Song,A#"};
-	string melody7 = "A";
-	vector <string> case8 {"12:00,12:01,Song,A#"};
-	string melody8 = "A#";
-	vector <string> case9 {"12:00,13:00,Song,AB"};
-	string melody9 = "ABA";
-	vector <string> case10 {"12:00,12:01,Sing,A", "12:00,12:01,Song,A"};
-	string melody10 = "A";
-	vector <string> case11 {"12:00,12:00,Song3,C","12:00,12:02,Song1,A#","12:00,12:02,Song2,A"};
-	string melody11 = "A";
-	vector <string> case12 {"12:20,13:10,Sing,AA#A#", "13:50,14:00,Song,A"};
-	string melody12 = "AAA#A#";
+	vector <string> case1 {"12:00,12:05,Sing,ABCDE"};
+	string melody1 = "ACE";
 	//cout << solution(melody1,case1) << endl;
 	//cout << solution(melody2,case2) << endl;
 	//cout << solution(melody3,case3) << endl;
@@ -138,5 +118,5 @@ int main()
 	//cout << solution(melody7,case7) << endl;
 	//cout << solution(melody10,case10) << endl;
 	//cout << solution(melody11,case11) << endl;
-	cout << solution(melody11,case11) << endl;
+	cout << solution(melody1,case1) << endl;
 }

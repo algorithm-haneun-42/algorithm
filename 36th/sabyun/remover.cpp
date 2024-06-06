@@ -1,27 +1,15 @@
 #include <iostream>
 #include<string>
+#include <stack>
+
 using namespace std;
 
 int solution(string s)
 {
-	bool end =true;
-	while(1)
-	{
-		end = true;
-		for(int i = 0; i+1 < s.size(); i++)
-		{
-			if(s[i]==s[i+1])
-			{
-				s.erase(i,2);
-				end= false;
-			}
-		}
-		if(end == true)
-			break;
-	}
-	if(s.empty())
-		return 1;
-	return 0;
+	stack <int> st;
+	for(int i = 0; i < s.size(); i++)
+		(!st.empty() && st.top() == s[i]) ? st.pop(): st.push(s[i]);
+	return (st.empty() ? 1 :0 );
 }
 
 int main()

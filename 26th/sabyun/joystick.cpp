@@ -67,11 +67,14 @@ int solution(string name) {
 }
 int main ()
 {
-	for (int i = 0; i < 41; i++)
+//	for (int i = 0; i < 41; i++)
+	while(1)
 	{
 		string str;
 		int num;
 		cin >> str >> num;
+		if(str.empty())
+			break;
 		cout << "str  = " << str << " \n"<< solution(str)<< " = " << num << endl;
 	}
 }
