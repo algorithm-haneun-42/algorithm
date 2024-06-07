@@ -35,6 +35,17 @@
 
 [백준 문제집](https://www.acmicpc.net/workbook/by/BaaaaaaaaaaarkingDog)
 
+### 2024-06-10 37회차 : 그래프 특집
+
+[실버 2] friend : [친구](https://www.acmicpc.net/problem/1058)
+
+[실버 2] relatives : [촌수계산](https://www.acmicpc.net/problem/2644)
+
+[골드 5] bottle : [물통](https://www.acmicpc.net/problem/2251)
+
+[골드 4] delivery : [택배 배송](https://www.acmicpc.net/problem/5972)
+
+
 ### 2024-06-06 36회차 : 랜덤문제풀이
 
 [레벨 2] process : [프로세스](https://school.programmers.co.kr/learn/courses/30/lessons/42587)
