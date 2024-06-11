@@ -35,6 +35,139 @@
 
 [백준 문제집](https://www.acmicpc.net/workbook/by/BaaaaaaaaaaarkingDog)
 
+### 2024-06-13 38회차 : 랜덤문제풀이
+
+[실버 2] jump_jump : [점프 점프](https://www.acmicpc.net/problem/11060)
+
+[골드 4] number_tying : [수 묶기](https://www.acmicpc.net/problem/1744)
+
+[골드 4] time_machine : [타임머신](https://www.acmicpc.net/problem/11657)
+
+### 2024-06-10 37회차 : 그래프 특집
+
+[실버 2] friend : [친구](https://www.acmicpc.net/problem/1058)
+
+[실버 2] relatives : [촌수계산](https://www.acmicpc.net/problem/2644)
+
+[골드 5] bottle : [물통](https://www.acmicpc.net/problem/2251)
+
+[골드 4] delivery : [택배 배송](https://www.acmicpc.net/problem/5972)
+
+
+### 2024-06-06 36회차 : 랜덤문제풀이
+
+[레벨 2] process : [프로세스](https://school.programmers.co.kr/learn/courses/30/lessons/42587)
+
+[레벨 2] matrix_multiplication : [행렬의 곱셈](https://school.programmers.co.kr/learn/courses/30/lessons/12949)
+
+[레벨 2] remove_in_pairs : [짝지어 제거하기](https://school.programmers.co.kr/learn/courses/30/lessons/12973)
+
+### 2024-06-03 35회차 : 랜덤문제풀이
+
+[레벨 2] next_big_number : [다음 큰 숫자](https://school.programmers.co.kr/learn/courses/30/lessons/12911)
+
+[레벨 2] jump_and_teleport : [점프와 순간이동](https://school.programmers.co.kr/learn/courses/30/lessons/12980)
+
+[레벨 2] select_mandarin : [귤 고르기](https://school.programmers.co.kr/learn/courses/30/lessons/138476)
+
+[레벨 2] stock_price : [주식가격](https://school.programmers.co.kr/learn/courses/30/lessons/42584)
+
+### 2024-05-30 34회차 : 랜덤문제풀이
+
+[레벨 2] log_jump : [멀리 뛰기](https://school.programmers.co.kr/learn/courses/30/lessons/12914)
+
+[레벨 2] vowel_dictionary : [모음 사전](https://school.programmers.co.kr/learn/courses/30/lessons/84512)
+
+[레벨 2] H_index : [H-index](https://school.programmers.co.kr/learn/courses/30/lessons/42747)
+
+### 2024-05-27 33회차 : 랜덤문제풀이
+
+[레벨 2] expression_of_number : [숫자의 표현](https://school.programmers.co.kr/learn/courses/30/lessons/12924)
+
+[레벨 2] truck : [다리를 지나는 트럭](https://school.programmers.co.kr/learn/courses/30/lessons/42583)
+
+[레벨 2] get_big_number : [큰 수 구하기](https://school.programmers.co.kr/learn/courses/30/lessons/42883)
+
+[레벨 2] sum_of_partial_sequences : [연속된 부분 수열의 합](https://school.programmers.co.kr/learn/courses/30/lessons/178870)
+
+### 2024-05-23 32회차 : 랜덤문제풀이
+
+[레벨 2] life_boat : [구명보트](https://school.programmers.co.kr/learn/courses/30/lessons/42885)
+
+[레벨 2] rotate_bracket : [괄호 회전하기](https://school.programmers.co.kr/learn/courses/30/lessons/76502)
+
+[레벨 2] triangle_snail : [삼각 달팽이](https://school.programmers.co.kr/learn/courses/30/lessons/68645)
+
+### 2024-05-20 31회차 : 랜덤문제풀이
+
+[레벨 2] rob_ground : [땅따먹기](https://school.programmers.co.kr/learn/courses/30/lessons/12913)
+
+[레벨 2] modify_number : [숫자 변환하기](https://school.programmers.co.kr/learn/courses/30/lessons/154538)
+
+[레벨 2] different_bit_under_two : [2개 이하로 다른 비트](https://school.programmers.co.kr/learn/courses/30/lessons/77885)
+
+[레벨 2] biggest_number : [가장 큰 수](https://school.programmers.co.kr/learn/courses/30/lessons/42746)
+
+### 2024-05-16 30회차 : 랜덤문제풀이
+
+[레벨 2] sale_event : [할인 행사](https://school.programmers.co.kr/learn/courses/30/lessons/131127)
+
+[레벨 2] functiong_development : [기능 개발](https://school.programmers.co.kr/learn/courses/30/lessons/42586)
+
+[레벨 2] delibery_box : [택배 상자](https://school.programmers.co.kr/learn/courses/30/lessons/131704)
+
+### 2024-05-13 29회차 : 랜덤문제풀이
+
+[레벨 2] cutting_rollcake : [롤케이크 자르기](https://school.programmers.co.kr/learn/courses/30/lessons/132265)
+
+[레벨 2] master_of_solo : [혼자 놀기의 달인](https://school.programmers.co.kr/learn/courses/30/lessons/131130)
+
+[레벨 2] mining_mineral : [광물 캐기](https://school.programmers.co.kr/learn/courses/30/lessons/172927)
+
+[레벨 2] that_song : [방금 그곡](https://school.programmers.co.kr/learn/courses/30/lessons/17683)
+
+### 2024-05-09 28회차 : 랜덤문제풀이
+
+[레벨 2] intercept_system : [요격 시스템](https://school.programmers.co.kr/learn/courses/30/lessons/181188)
+
+[레벨 2] find_biggest_sqaure : [가장 큰 정사각형 찾기](https://school.programmers.co.kr/learn/courses/30/lessons/12905)
+
+[레벨 2] delivery : [택배 배달과 수거하기](https://school.programmers.co.kr/learn/courses/30/lessons/150369)
+
+### 2024-05-06 27회차 : 랜덤문제풀이
+
+[레벨 2] more_spicy : [더 맵게](https://school.programmers.co.kr/learn/courses/30/lessons/42626)
+
+[레벨 2] doing_subject : [과제 진행하기](https://school.programmers.co.kr/learn/courses/30/lessons/176962)
+
+[레벨 2] candidate_key : [후보키](https://school.programmers.co.kr/learn/courses/30/lessons/42890)
+
+[레벨 2] maze_escape : [미로 탈출](https://school.programmers.co.kr/learn/courses/30/lessons/159993)
+
+### 2024-05-02 26회차 : 랜덤문제풀이
+
+[레벨 2] number_block : [숫자 블록](https://school.programmers.co.kr/learn/courses/30/lessons/12923)
+
+[레벨 2] joystick : [조이스틱](https://school.programmers.co.kr/learn/courses/30/lessons/42860)
+
+[레벨 2] skilltree : [스킬트리](https://school.programmers.co.kr/learn/courses/30/lessons/49993)
+
+### 2024-04-29 25회차 : 랜덤문제풀이
+
+[레벨 2] magical_elebator : [마법의 엘리베이터](https://school.programmers.co.kr/learn/courses/30/lessons/148653)
+
+[레벨 2] cantor_bit_array : [유사 칸토어 비트열](https://school.programmers.co.kr/learn/courses/30/lessons/148652)
+
+[레벨 2] archery_competition : [카카오 기출문제 : 양궁 대회](https://school.programmers.co.kr/learn/courses/30/lessons/92342)
+
+### 2024-04-25 24회차 : 랜덤문제풀이
+
+[레벨 2] tictactoe : [혼자서 하는 틱택토](https://school.programmers.co.kr/learn/courses/30/lessons/160585)
+
+[레벨 2] find_big_number_behind : [뒤에 있는 큰 수 찾기](https://school.programmers.co.kr/learn/courses/30/lessons/154539)
+
+[레벨 2] emoticon_sale_event : [(보너스)카카오 기출문제 : 이모티콘 할인행사](https://school.programmers.co.kr/learn/courses/30/lessons/150368)
+
 ### 2024-04-15 23회차 : 기출문제풀이
 
 [레벨 2] oil_drilling : [pccp 기출문제 : 석유 시추](https://school.programmers.co.kr/learn/courses/30/lessons/250136)
