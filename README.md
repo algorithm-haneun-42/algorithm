@@ -35,6 +35,14 @@
 
 [백준 문제집](https://www.acmicpc.net/workbook/by/BaaaaaaaaaaarkingDog)
 
+### 2024-06-13 38회차 : 랜덤문제풀이
+
+[실버 2] jump_jump : [점프 점프](https://www.acmicpc.net/problem/11060)
+
+[골드 4] number_tying : [수 묶기](https://www.acmicpc.net/problem/1744)
+
+[골드 4] time_machine : [타임머신](https://www.acmicpc.net/problem/11657)
+
 ### 2024-06-10 37회차 : 그래프 특집
 
 [실버 2] friend : [친구](https://www.acmicpc.net/problem/1058)
