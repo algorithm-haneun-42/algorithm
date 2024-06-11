@@ -1,4 +1,5 @@
-// https://www.acmicpc.net/problem/2482
+ \
+ / https://www.acmicpc.net/problem/2482
 
 #include <iostream>
 

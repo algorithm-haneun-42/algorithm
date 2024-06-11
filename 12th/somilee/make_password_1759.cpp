@@ -34,7 +34,7 @@ void get_password(int k)
 		if (check_possible(arr) == 0)
 		{
 			for(int i = 0; i < n; i++)
-				cout << arr[i] << ' ';
+				cout << arr[i];
 			cout << '\n';
 		}
 		return;

@@ -67,7 +67,7 @@ int main(void)
 	{
 		int x, y, z;
 		tie(z, x, y) = edge[i];
-		if(is_elec_group(x, y) == 1 || is_diff_group(x, y) == 1)
+		if(is_elec_group(x, y) == 1 ||is_diff_group(x, y) == 1)
 			continue;
 		add += z;
 		cnt++;
