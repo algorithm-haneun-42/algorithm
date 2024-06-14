@@ -35,6 +35,16 @@
 
 [백준 문제집](https://www.acmicpc.net/workbook/by/BaaaaaaaaaaarkingDog)
 
+### 2024-06-17 39회차 : 랜덤문제풀이
+
+[실버 1] Z : [Z](https://www.acmicpc.net/problem/1074)
+
+[실버 1] deth_night : [데스 나이트](https://www.acmicpc.net/problem/16948)
+
+[골드 4] split_section : [구간 나누기 2](https://www.acmicpc.net/problem/13397)
+
+[골드 3] history : [역사](https://www.acmicpc.net/problem/1613)
+
 ### 2024-06-13 38회차 : 랜덤문제풀이
 
 [실버 2] jump_jump : [점프 점프](https://www.acmicpc.net/problem/11060)
