@@ -6,10 +6,6 @@
 using namespace std;
 struct CompareSecond {
     bool operator()(int p1, int p2) {
-		if(p1 == 0)
-			return true;
-		if(p2 == 0)
-			return false;
         return abs(p1) > abs(p2);
     }
 };
