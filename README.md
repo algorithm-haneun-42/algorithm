@@ -35,6 +35,14 @@
 
 [백준 문제집](https://www.acmicpc.net/workbook/by/BaaaaaaaaaaarkingDog)
 
+### 2024-06-20 40회차 : 랜덤문제풀이
+
+[실버 1] boj_distance : [BOJ 거리](https://www.acmicpc.net/problem/12026)
+
+[실버 1] jump_game : [점프 게임](https://www.acmicpc.net/problem/15558)
+
+[골드 4] work : [작업](https://www.acmicpc.net/problem/2056)
+
 ### 2024-06-17 39회차 : 랜덤문제풀이
 
 [실버 1] Z : [Z](https://www.acmicpc.net/problem/1074)
