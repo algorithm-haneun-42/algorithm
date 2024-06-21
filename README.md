@@ -35,6 +35,16 @@
 
 [백준 문제집](https://www.acmicpc.net/workbook/by/BaaaaaaaaaaarkingDog)
 
+### 2024-06-24 41회차 : 랜덤문제풀이
+
+[실버 1] bacon : [케빈 베이컨의 6단계 법칙](https://www.acmicpc.net/problem/1389)
+
+[골드 5] sum_decompose : [합분해](https://www.acmicpc.net/problem/2225)
+
+[골드 5] robot : [컨베이어 벨트 위의 로봇](https://www.acmicpc.net/problem/20055)
+
+[골드 5] write_num : [수 이어 쓰기 2](https://www.acmicpc.net/problem/1790)
+
 ### 2024-06-20 40회차 : 랜덤문제풀이
 
 [실버 1] boj_distance : [BOJ 거리](https://www.acmicpc.net/problem/12026)
