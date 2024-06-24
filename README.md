@@ -35,6 +35,14 @@
 
 [백준 문제집](https://www.acmicpc.net/workbook/by/BaaaaaaaaaaarkingDog)
 
+### 2024-06-27 42회차 : 랜덤문제풀이
+
+[골드 3] make_shape : [모양 만들기](https://www.acmicpc.net/problem/16932)
+
+[골드 5] criboard : [크리보드](https://www.acmicpc.net/problem/11058)
+
+[골드 4] Alphabet : [알파벳](https://www.acmicpc.net/problem/1987)
+
 ### 2024-06-24 41회차 : 랜덤문제풀이
 
 [실버 1] bacon : [케빈 베이컨의 6단계 법칙](https://www.acmicpc.net/problem/1389)
