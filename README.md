@@ -35,6 +35,17 @@
 
 [백준 문제집](https://www.acmicpc.net/workbook/by/BaaaaaaaaaaarkingDog)
 
+
+### 2024-07-01 43회차 : 랜덤문제풀이
+
+[골드 5] three_friends : [세 친구](https://www.acmicpc.net/problem/17089)
+
+[골드 3] matrix_mutiple_order : [행렬 곱셈 순서](https://www.acmicpc.net/problem/11049)
+
+[골드 4] trip : [여행](https://www.acmicpc.net/problem/2157)
+
+[골드 3] rotate_lecture : [순회강연](https://www.acmicpc.net/problem/2109)
+
 ### 2024-06-27 42회차 : 랜덤문제풀이
 
 [골드 3] make_shape : [모양 만들기](https://www.acmicpc.net/problem/16932)
