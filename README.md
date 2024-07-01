@@ -36,6 +36,14 @@
 [백준 문제집](https://www.acmicpc.net/workbook/by/BaaaaaaaaaaarkingDog)
 
 
+### 2024-07-04 44회차 : 랜덤문제풀이
+
+[골드 3] snail : [킹팽이3](https://www.acmicpc.net/problem/1959)
+
+[골드 5] firefly : [개똥벌레](https://www.acmicpc.net/problem/3020)
+
+[골드 4] friend_cost : [친구비](https://www.acmicpc.net/problem/16562)
+
 ### 2024-07-01 43회차 : 랜덤문제풀이
 
 [골드 5] three_friends : [세 친구](https://www.acmicpc.net/problem/17089)
