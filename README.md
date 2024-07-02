@@ -38,7 +38,7 @@
 
 ### 2024-07-04 44회차 : 랜덤문제풀이
 
-[골드 3] snail : [킹팽이3](https://www.acmicpc.net/problem/1959)
+[골드 3] snail : [달팽이3](https://www.acmicpc.net/problem/1959)
 
 [골드 5] firefly : [개똥벌레](https://www.acmicpc.net/problem/3020)
 
