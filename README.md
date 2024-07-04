@@ -35,6 +35,15 @@
 
 [백준 문제집](https://www.acmicpc.net/workbook/by/BaaaaaaaaaaarkingDog)
 
+### 2024-07-08 45회차 : 랜덤문제풀이
+
+[실버 1] relocate_number : [숫자 재배치](https://www.acmicpc.net/problem/16943)
+
+[골드 3] tornado_shark : [마법사 상어와 토네이도](https://www.acmicpc.net/problem/20057)
+
+[골드 4] rest_area : [휴게소 세우기](https://www.acmicpc.net/problem/1477)
+
+[골드 4] detecting_marble : [구슬 찾기](https://www.acmicpc.net/problem/2617)
 
 ### 2024-07-04 44회차 : 랜덤문제풀이
 
