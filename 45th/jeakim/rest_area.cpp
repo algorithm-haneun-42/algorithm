@@ -47,15 +47,13 @@ int main()
 	sort(v.begin(), v.end());
 	init_d();
 	sort(d.begin(), d.end());
-	int i = 1;
-	while (i <= d[d.size() - 1])
+	for (int i = 1; i <= d[d.size() - 1]; i++)
 	{
 		if (check_num(i) == m)
 		{
 			cout << i << endl;
 			break ;
 		}
-		i++;
 	}
 	return (0);
 }
