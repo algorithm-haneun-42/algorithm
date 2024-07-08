@@ -37,6 +37,14 @@
 
 ### 2024-07-08 45회차 : 랜덤문제풀이
 
+[골드 5] descending_number : [감소하는 수](https://www.acmicpc.net/problem/1038)
+
+[골드 5] group_task : [조별 과제](https://www.acmicpc.net/problem/30960)
+
+[골드 3] fractol : [프렉탈 평면](https://www.acmicpc.net/problem/1030)
+
+### 2024-07-08 45회차 : 랜덤문제풀이
+
 [실버 1] relocate_number : [숫자 재배치](https://www.acmicpc.net/problem/16943)
 
 [골드 3] tornado_shark : [마법사 상어와 토네이도](https://www.acmicpc.net/problem/20057)
