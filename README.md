@@ -35,7 +35,7 @@
 
 [백준 문제집](https://www.acmicpc.net/workbook/by/BaaaaaaaaaaarkingDog)
 
-### 2024-07-08 45회차 : 랜덤문제풀이
+### 2024-07-11 46회차 : 랜덤문제풀이
 
 [골드 5] descending_number : [감소하는 수](https://www.acmicpc.net/problem/1038)
 
