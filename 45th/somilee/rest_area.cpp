@@ -10,7 +10,7 @@ int a[1005];
 
 int sum_div(int div) {
 	int sum = 0;
-	for(int i = 0; i < n; i++) {
+	for(int i = 0; i <= n; i++) {
 		sum += a[i] / div;
 		if (a[i] % div == 0)
 			sum--;
@@ -23,20 +23,14 @@ int main(void) {
 	int i;
 	for(i = 1; i <= n; i++)
 		cin >> a[i];
-	a[i] = l; 
-	for(int i = 0; i <= n; i++)
-		cout << a[i] << ' ';
-	cout << endl;
+	a[n+1] = l;
 	sort(a, a+n+1);
 	for(int i = 0; i <= n; i++)
-		a[i] = a[i+1] = a[i];
-	for(int i = 0; i <= n; i++)
-		cout << a[i] << ' ';
-	cout << endl;
+		a[i] = a[i+1] - a[i];
+	sort(a, a+n+1);
     int st = 1;
     int en = l;
     int result = en;
-
     while (st <= en) {
         int mid = (st + en) / 2;
         if (sum_div(mid) <= m) {
