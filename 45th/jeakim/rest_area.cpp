@@ -6,20 +6,28 @@
 using namespace std;
 
 vector<int> v;
+vector<int> d;
 
-int	find_max()
+void	init_d()
 {
-	int	max_idx = 0;
-	int max_l = 0;
-
 	for (int i = 1; i < v.size(); i++)
 	{
 		int l;
 		l = v[i] - v[i - 1];
-		max_l = max_l > l ? max_l : l;
-		max_idx = max_l > l ? max_idx : i - 1;
+		d.push_back(l);
 	}
-	return (max_idx);
+}
+
+int	check_num(int k)
+{
+	int num = 0;
+	for (int i = 0; i < d.size(); i++)
+	{
+		num += d[i] / k;
+		if (d[i] % k == 0)
+			num--;
+	}
+	return (num);
 }
 
 int main()
@@ -37,16 +45,17 @@ int main()
 		v.push_back(k);
 	}
 	sort(v.begin(), v.end());
-	for (int i = 0; i < m; i++)
+	init_d();
+	sort(d.begin(), d.end());
+	int i = 1;
+	while (i <= d[d.size() - 1])
 	{
-		int idx = find_max();
-		v.push_back(v[idx] + (v[idx + 1] - v[idx]) / 2);
-		sort(v.begin(), v.end());
+		if (check_num(i) == m)
+		{
+			cout << i << endl;
+			break ;
+		}
+		i++;
 	}
-	// for (int i = 0; i < v.size(); i++)
-	// 	cout <<  v[i] << ' ' ;
-	// cout << endl;
-	int idx = find_max();
-	cout << v[idx + 1] - v[idx] << endl;  
 	return (0);
 }
