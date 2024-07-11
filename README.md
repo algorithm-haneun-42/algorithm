@@ -35,6 +35,14 @@
 
 [백준 문제집](https://www.acmicpc.net/workbook/by/BaaaaaaaaaaarkingDog)
 
+### 2024-07-15 47회차 : 랜덤문제풀이
+
+[골드 5] amazing_prime : [신기한 소수](https://www.acmicpc.net/problem/2023)
+
+[골드 5] line_up : [줄세우기](https://www.acmicpc.net/problem/2631)
+
+[골드 5] shark_school : [상어 초등학교](https://www.acmicpc.net/problem/21608)
+
 ### 2024-07-11 46회차 : 랜덤문제풀이
 
 [골드 5] descending_number : [감소하는 수](https://www.acmicpc.net/problem/1038)
