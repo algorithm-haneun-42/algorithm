@@ -35,6 +35,14 @@
 
 [백준 문제집](https://www.acmicpc.net/workbook/by/BaaaaaaaaaaarkingDog)
 
+### 2024-07-18 48회차 : 랜덤문제풀이
+
+[골드 4] LCS3 : [LCS 3](https://www.acmicpc.net/problem/1958)
+
+[골드 5] starting_list : [선발 명단](https://www.acmicpc.net/problem/3980)
+
+[골드 4] string_explosion : [문자열 폭발](https://www.acmicpc.net/problem/9935)
+
 ### 2024-07-15 47회차 : 랜덤문제풀이
 
 [골드 5] amazing_prime : [신기한 소수](https://www.acmicpc.net/problem/2023)
