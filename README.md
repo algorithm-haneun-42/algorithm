@@ -35,6 +35,16 @@
 
 [백준 문제집](https://www.acmicpc.net/workbook/by/BaaaaaaaaaaarkingDog)
 
+### 2024-07-22 49회차 : 랜덤문제풀이
+
+[골드 4] attendance_award : [개근상](https://www.acmicpc.net/problem/1563)
+
+[골드 4] diet : [다이어트](https://www.acmicpc.net/problem/19942)
+
+[골드 4] dance_party : [댄스 파티](https://www.acmicpc.net/problem/2831)
+
+[골드 4] cousin : [사촌](https://www.acmicpc.net/problem/9489)
+
 ### 2024-07-18 48회차 : 랜덤문제풀이
 
 [골드 4] LCS3 : [LCS 3](https://www.acmicpc.net/problem/1958)
