@@ -17,15 +17,11 @@ int main() {
       v.push_back(tmp);
     }
     vector<int> line[1001];
-    int idx = 0, dep[1001] = {0}, arr[1001], p[1001], a;
-    dep[0] = 1;
-    arr[0] = 0;
+    int idx = 0, p[1001], a;
     p[0] = 0;
     for (int i = 1; i < v.size(); i++) {
       line[idx].push_back(i);
-      arr[i] = arr[idx] + 1;
       p[i] = idx;
-      dep[arr[i]]++;
       if (v[i] == k) a = i;
       if (!(i < v.size() - 1 && v[i] + 1 == v[i + 1])) idx++;
     }
