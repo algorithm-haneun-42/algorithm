@@ -37,6 +37,14 @@
 
 ### 2024-07-22 49회차 : 랜덤문제풀이
 
+[골드 5] prerequisite : [선수과목](https://www.acmicpc.net/problem/14567)
+
+[골드 5] rome_number : [로마 숫자](https://www.acmicpc.net/problem/2608)
+
+[골드 4] thief : [도둑](https://www.acmicpc.net/problem/13422)
+
+### 2024-07-22 49회차 : 랜덤문제풀이
+
 [골드 4] attendance_award : [개근상](https://www.acmicpc.net/problem/1563)
 
 [골드 4] diet : [다이어트](https://www.acmicpc.net/problem/19942)
