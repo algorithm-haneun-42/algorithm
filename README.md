@@ -35,7 +35,17 @@
 
 [백준 문제집](https://www.acmicpc.net/workbook/by/BaaaaaaaaaaarkingDog)
 
-### 2024-07-22 49회차 : 랜덤문제풀이
+### 2024-07-29 51회차 : 랜덤문제풀이
+
+[골드 4] teaching : [가르침](https://www.acmicpc.net/problem/1062)
+
+[골드 4] number_list : [전화번호 목록](https://www.acmicpc.net/problem/5052)
+
+[골드 5] palindrome : [회문](https://www.acmicpc.net/problem/17609)
+
+[골드 5] entry_screening : [입국심사](https://www.acmicpc.net/problem/3079)
+
+### 2024-07-25 50회차 : 랜덤문제풀이
 
 [골드 5] prerequisite : [선수과목](https://www.acmicpc.net/problem/14567)
 
