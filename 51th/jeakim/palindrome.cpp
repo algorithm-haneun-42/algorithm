@@ -23,11 +23,14 @@ int main()
 			st.push(s[i]);
 		for (int i = len / 2; i < len; i++)
 		{
+			if (st.empty())
+			{
+				rst_begin++;
+				break ;
+			}
 			if (s[i] == st.top())
 				st.pop();
-			else if (i == len / 2)
-				continue ;
-			else
+			else if (i != len / 2)
 				rst_begin++;
 		}
 		if (!st.empty())
@@ -46,9 +49,7 @@ int main()
 			}
 			if (s[i] == st.top())
 				st.pop();
-			else if (i == len / 2 - 1)
-				continue ;
-			else
+			else if (i != len / 2)
 				rst_end++;
 		}
 		if (!st.empty())
