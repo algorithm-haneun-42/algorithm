@@ -35,6 +35,14 @@
 
 [백준 문제집](https://www.acmicpc.net/workbook/by/BaaaaaaaaaaarkingDog)
 
+### 2024-08-01 52회차 : 랜덤문제풀이
+
+[골드 4] sum_of_factors : [약수의 합](https://www.acmicpc.net/problem/17425)
+
+[골드 4] rotate_sushi : [회전초밥](https://www.acmicpc.net/problem/15961)
+
+[골드 5] almost_prime : [거의 소수](https://www.acmicpc.net/problem/1456)
+
 ### 2024-07-29 51회차 : 랜덤문제풀이
 
 [골드 4] teaching : [가르침](https://www.acmicpc.net/problem/1062)
