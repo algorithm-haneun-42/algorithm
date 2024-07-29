@@ -58,11 +58,11 @@ public class Teaching {
 			max = Math.max(cnt, max);
 			return;
 		}
-		for (int i = start; i < list.size(); i++) {
-			if (!v[list.get(i) - 'a']) {
-				v[list.get(i) - 'a'] = true;
-				recul(i, depth + 1);
-				v[list.get(i) - 'a'] = false;
+		for (int i = start; i < 26; i++) {
+			if (!v[i]) {
+				v[i] = true;
+				recul(i + 1, depth + 1);
+				v[i] = false;
 			}
 		}
 	}
