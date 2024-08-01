@@ -43,6 +43,8 @@
 
 [골드 5] robot_project : [로봇 프로젝트](https://www.acmicpc.net/problem/3649)
 
+[골드 4] world_cup : [월드컵](https://www.acmicpc.net/problem/6987)
+
 ### 2024-08-01 52회차 : 랜덤문제풀이
 
 [골드 4] sum_of_factors : [약수의 합](https://www.acmicpc.net/problem/17425)
