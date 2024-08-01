@@ -9,15 +9,7 @@ class AlmostPrime {
 		long a = Long.parseLong(st.nextToken());
 		long b = Long.parseLong(st.nextToken());
 		prime = new boolean[10000001];
-		prime[1] = true;
-		getPrime();
-		for (int i = 1; i <= 100000; i++) {
-			if (!prime[i]) {
-				System.out.print(i + " ");
-			}
-		}
-	}
-	public static void getPrime() {
+		prime[0] = prime[1] = true;
 		for (int i = 2; i * i < prime.length; i++) {
 			if (!prime[i]) {
 				for (int j = i * i; j < prime.length; j += i) {
@@ -25,5 +17,19 @@ class AlmostPrime {
 				}
 			}
 		}
+		int answer = 0;
+		for (int i = 2; i < prime.length; i++) {
+			if (!prime[i]) {
+				long tmp = i;
+				while (tmp <= b / i) {
+					if (a <= tmp * i) {
+						System.out.println("i = " + i + ", tmp = " + tmp);
+						answer++;
+					}
+					tmp *= i;
+				}
+			}
+		}
+		System.out.println(answer);
 	}
 }
