@@ -35,6 +35,16 @@
 
 [백준 문제집](https://www.acmicpc.net/workbook/by/BaaaaaaaaaaarkingDog)
 
+### 2024-08-05 53회차 : 랜덤문제풀이
+
+[골드 5] continuous_sum : [연속합 2](https://www.acmicpc.net/problem/13398)
+
+[골드 5] rescue_princess : [공주님을 구해라!](https://www.acmicpc.net/problem/17836)
+
+[골드 5] robot_project : [로봇 프로젝트](https://www.acmicpc.net/problem/3649)
+
+[골드 4] world_cup : [월드컵](https://www.acmicpc.net/problem/6987)
+
 ### 2024-08-01 52회차 : 랜덤문제풀이
 
 [골드 4] sum_of_factors : [약수의 합](https://www.acmicpc.net/problem/17425)
