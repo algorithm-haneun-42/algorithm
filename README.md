@@ -37,6 +37,14 @@
 
 ### 2024-08-05 53회차 : 랜덤문제풀이
 
+[골드 4] good_sequence : [좋은 수열](https://www.acmicpc.net/problem/2661)
+
+[골드 5] AandB : [A와 B 2](https://www.acmicpc.net/problem/12919)
+
+[골드 5] order_of_sequence : [순열의 순서](https://www.acmicpc.net/problem/1722)
+
+### 2024-08-05 53회차 : 랜덤문제풀이
+
 [골드 5] continuous_sum : [연속합 2](https://www.acmicpc.net/problem/13398)
 
 [골드 5] rescue_princess : [공주님을 구해라!](https://www.acmicpc.net/problem/17836)
