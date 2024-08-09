@@ -35,6 +35,14 @@
 
 [백준 문제집](https://www.acmicpc.net/workbook/by/BaaaaaaaaaaarkingDog)
 
+### 2024-08-12 54회차 : 랜덤문제풀이
+
+[골드 5] common_divisor : [공약수](https://www.acmicpc.net/problem/2436)
+
+[골드 5] avoid_observer : [감시 피하기](https://www.acmicpc.net/problem/18428)
+
+[골드 4] stone_group : [돌 그룹](https://www.acmicpc.net/problem/12886)
+
 ### 2024-08-05 53회차 : 랜덤문제풀이
 
 [골드 4] good_sequence : [좋은 수열](https://www.acmicpc.net/problem/2661)
