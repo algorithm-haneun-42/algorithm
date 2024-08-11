@@ -5,10 +5,9 @@ using namespace std;
 
 int n, m, mul;
 bool check_disjoint(int i) {
-	for(int j = 2; j*j <= i; j++) {
+	for(int j = 2; j*j <= i; j++)
 		if (i%j == 0 && (mul/i)%j == 0)
 			return 0;
-	}
 	return 1;
 }
 
