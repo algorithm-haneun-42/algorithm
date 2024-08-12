@@ -35,6 +35,14 @@
 
 [백준 문제집](https://www.acmicpc.net/workbook/by/BaaaaaaaaaaarkingDog)
 
+### 2024-08-15 56회차 : 랜덤문제풀이
+
+[골드 5] delivery : [택배 배송](https://www.acmicpc.net/problem/5972)
+
+[골드 4] rebellion_of_junan : [주난의 난](https://www.acmicpc.net/problem/14497)
+
+[골드 5] card_game : [카드게임](https://www.acmicpc.net/problem/10835)
+
 ### 2024-08-12 55회차 : 랜덤문제풀이
 
 [골드 5] common_divisor : [공약수](https://www.acmicpc.net/problem/2436)
