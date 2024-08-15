@@ -13,9 +13,9 @@ vector<pair<int, int>> S;
 vector<pair<pair<int, int>, pair<int, int>>> P;
 
 void make_pair() {
-    for (const pair<int, int>& s : S) {
-        for (const pair<int, int>& t : T) {
-            if (s.first == t.first || s.second == t.second) {
+    for (const vector <pair<int, int> >s : S) {
+        for (const vector<pair<int, int> >t : T) {
+            if (s->first == t->first || s->second == t->second) {
                 P.push_back({s, t});
             }
         }
