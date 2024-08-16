@@ -35,6 +35,14 @@
 
 [백준 문제집](https://www.acmicpc.net/workbook/by/BaaaaaaaaaaarkingDog)
 
+### 2024-08-19 57회차 : 랜덤문제풀이
+
+[골드 4] two_coin : [두 동전](https://www.acmicpc.net/problem/16197)
+
+[골드 4] candy_shop : [사탕 가게](https://www.acmicpc.net/problem/4781)
+
+[골드 5] distance_among_nodes : [노드사이의 거리](https://www.acmicpc.net/problem/1240)
+
 ### 2024-08-15 56회차 : 랜덤문제풀이
 
 [골드 5] delivery : [택배 배송](https://www.acmicpc.net/problem/5972)
