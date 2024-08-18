@@ -35,6 +35,172 @@
 
 [백준 문제집](https://www.acmicpc.net/workbook/by/BaaaaaaaaaaarkingDog)
 
+### 2024-08-19 57회차 : 랜덤문제풀이
+
+[골드 4] two_coin : [두 동전](https://www.acmicpc.net/problem/16197)
+
+[골드 4] candy_shop : [사탕 가게](https://www.acmicpc.net/problem/4781)
+
+[골드 5] distance_among_nodes : [노드사이의 거리](https://www.acmicpc.net/problem/1240)
+
+### 2024-08-15 56회차 : 랜덤문제풀이
+
+[골드 5] delivery : [택배 배송](https://www.acmicpc.net/problem/5972)
+
+[골드 4] rebellion_of_junan : [주난의 난](https://www.acmicpc.net/problem/14497)
+
+[골드 5] card_game : [카드게임](https://www.acmicpc.net/problem/10835)
+
+### 2024-08-12 55회차 : 랜덤문제풀이
+
+[골드 5] common_divisor : [공약수](https://www.acmicpc.net/problem/2436)
+
+[골드 5] avoid_observer : [감시 피하기](https://www.acmicpc.net/problem/18428)
+
+[골드 4] stone_group : [돌 그룹](https://www.acmicpc.net/problem/12886)
+
+### 2024-08-05 54회차 : 랜덤문제풀이
+
+[골드 4] good_sequence : [좋은 수열](https://www.acmicpc.net/problem/2661)
+
+[골드 5] AandB : [A와 B 2](https://www.acmicpc.net/problem/12919)
+
+[골드 5] order_of_sequence : [순열의 순서](https://www.acmicpc.net/problem/1722)
+
+### 2024-08-05 53회차 : 랜덤문제풀이
+
+[골드 5] continuous_sum : [연속합 2](https://www.acmicpc.net/problem/13398)
+
+[골드 5] rescue_princess : [공주님을 구해라!](https://www.acmicpc.net/problem/17836)
+
+[골드 5] robot_project : [로봇 프로젝트](https://www.acmicpc.net/problem/3649)
+
+[골드 4] world_cup : [월드컵](https://www.acmicpc.net/problem/6987)
+
+### 2024-08-01 52회차 : 랜덤문제풀이
+
+[골드 4] sum_of_factors : [약수의 합](https://www.acmicpc.net/problem/17425)
+
+[골드 4] rotate_sushi : [회전초밥](https://www.acmicpc.net/problem/15961)
+
+[골드 5] almost_prime : [거의 소수](https://www.acmicpc.net/problem/1456)
+
+### 2024-07-29 51회차 : 랜덤문제풀이
+
+[골드 4] teaching : [가르침](https://www.acmicpc.net/problem/1062)
+
+[골드 4] number_list : [전화번호 목록](https://www.acmicpc.net/problem/5052)
+
+[골드 5] palindrome : [회문](https://www.acmicpc.net/problem/17609)
+
+[골드 5] entry_screening : [입국심사](https://www.acmicpc.net/problem/3079)
+
+### 2024-07-25 50회차 : 랜덤문제풀이
+
+[골드 5] prerequisite : [선수과목](https://www.acmicpc.net/problem/14567)
+
+[골드 5] rome_number : [로마 숫자](https://www.acmicpc.net/problem/2608)
+
+[골드 4] thief : [도둑](https://www.acmicpc.net/problem/13422)
+
+### 2024-07-22 49회차 : 랜덤문제풀이
+
+[골드 4] attendance_award : [개근상](https://www.acmicpc.net/problem/1563)
+
+[골드 4] diet : [다이어트](https://www.acmicpc.net/problem/19942)
+
+[골드 4] dance_party : [댄스 파티](https://www.acmicpc.net/problem/2831)
+
+[골드 4] cousin : [사촌](https://www.acmicpc.net/problem/9489)
+
+### 2024-07-18 48회차 : 랜덤문제풀이
+
+[골드 4] LCS3 : [LCS 3](https://www.acmicpc.net/problem/1958)
+
+[골드 5] starting_list : [선발 명단](https://www.acmicpc.net/problem/3980)
+
+[골드 4] string_explosion : [문자열 폭발](https://www.acmicpc.net/problem/9935)
+
+### 2024-07-15 47회차 : 랜덤문제풀이
+
+[골드 5] amazing_prime : [신기한 소수](https://www.acmicpc.net/problem/2023)
+
+[골드 5] line_up : [줄세우기](https://www.acmicpc.net/problem/2631)
+
+[골드 5] shark_school : [상어 초등학교](https://www.acmicpc.net/problem/21608)
+
+### 2024-07-11 46회차 : 랜덤문제풀이
+
+[골드 5] descending_number : [감소하는 수](https://www.acmicpc.net/problem/1038)
+
+[골드 5] group_task : [조별 과제](https://www.acmicpc.net/problem/30960)
+
+[골드 3] fractol : [프렉탈 평면](https://www.acmicpc.net/problem/1030)
+
+### 2024-07-08 45회차 : 랜덤문제풀이
+
+[실버 1] relocate_number : [숫자 재배치](https://www.acmicpc.net/problem/16943)
+
+[골드 3] tornado_shark : [마법사 상어와 토네이도](https://www.acmicpc.net/problem/20057)
+
+[골드 4] rest_area : [휴게소 세우기](https://www.acmicpc.net/problem/1477)
+
+[골드 4] detecting_marble : [구슬 찾기](https://www.acmicpc.net/problem/2617)
+
+### 2024-07-04 44회차 : 랜덤문제풀이
+
+[골드 3] snail : [달팽이3](https://www.acmicpc.net/problem/1959)
+
+[골드 5] firefly : [개똥벌레](https://www.acmicpc.net/problem/3020)
+
+[골드 4] friend_cost : [친구비](https://www.acmicpc.net/problem/16562)
+
+### 2024-07-01 43회차 : 랜덤문제풀이
+
+[골드 5] three_friends : [세 친구](https://www.acmicpc.net/problem/17089)
+
+[골드 3] matrix_mutiple_order : [행렬 곱셈 순서](https://www.acmicpc.net/problem/11049)
+
+[골드 4] trip : [여행](https://www.acmicpc.net/problem/2157)
+
+[골드 3] rotate_lecture : [순회강연](https://www.acmicpc.net/problem/2109)
+
+### 2024-06-27 42회차 : 랜덤문제풀이
+
+[골드 3] make_shape : [모양 만들기](https://www.acmicpc.net/problem/16932)
+
+[골드 5] criboard : [크리보드](https://www.acmicpc.net/problem/11058)
+
+[골드 4] Alphabet : [알파벳](https://www.acmicpc.net/problem/1987)
+
+### 2024-06-24 41회차 : 랜덤문제풀이
+
+[실버 1] bacon : [케빈 베이컨의 6단계 법칙](https://www.acmicpc.net/problem/1389)
+
+[골드 5] sum_decompose : [합분해](https://www.acmicpc.net/problem/2225)
+
+[골드 5] robot : [컨베이어 벨트 위의 로봇](https://www.acmicpc.net/problem/20055)
+
+[골드 5] write_num : [수 이어 쓰기 2](https://www.acmicpc.net/problem/1790)
+
+### 2024-06-20 40회차 : 랜덤문제풀이
+
+[실버 1] boj_distance : [BOJ 거리](https://www.acmicpc.net/problem/12026)
+
+[실버 1] jump_game : [점프 게임](https://www.acmicpc.net/problem/15558)
+
+[골드 4] work : [작업](https://www.acmicpc.net/problem/2056)
+
+### 2024-06-17 39회차 : 랜덤문제풀이
+
+[실버 1] Z : [Z](https://www.acmicpc.net/problem/1074)
+
+[실버 1] deth_night : [데스 나이트](https://www.acmicpc.net/problem/16948)
+
+[골드 4] split_section : [구간 나누기 2](https://www.acmicpc.net/problem/13397)
+
+[골드 3] history : [역사](https://www.acmicpc.net/problem/1613)
+
 ### 2024-06-13 38회차 : 랜덤문제풀이
 
 [실버 2] jump_jump : [점프 점프](https://www.acmicpc.net/problem/11060)
