@@ -35,6 +35,14 @@
 
 [백준 문제집](https://www.acmicpc.net/workbook/by/BaaaaaaaaaaarkingDog)
 
+### 2024-08-22 57회차 : 랜덤문제풀이
+
+[골드 4] link_planet : [행성 연결](https://www.acmicpc.net/problem/16398)
+
+[골드 5] move_of_door : [벽장문의 이동](https://www.acmicpc.net/problem/2666)
+
+[골드 4] Calculation4 : [4연산](https://www.acmicpc.net/problem/14395)
+
 ### 2024-08-19 57회차 : 랜덤문제풀이
 
 [골드 4] two_coin : [두 동전](https://www.acmicpc.net/problem/16197)
