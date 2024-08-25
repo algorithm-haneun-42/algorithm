@@ -35,7 +35,15 @@
 
 [백준 문제집](https://www.acmicpc.net/workbook/by/BaaaaaaaaaaarkingDog)
 
-### 2024-08-22 57회차 : 랜덤문제풀이
+### 2024-08-26 59회차 : 랜덤문제풀이
+
+[골드 3] spacegod : [우주신과의 교감](https://www.acmicpc.net/problem/1774)
+
+[골드 4] array_rotate4 : [배열 돌리기 4](https://www.acmicpc.net/problem/17406)
+
+[골드 5] hanoi : [하노이 탑 이동 순서](https://www.acmicpc.net/problem/11729)
+
+### 2024-08-22 58회차 : 랜덤문제풀이
 
 [골드 4] link_planet : [행성 연결](https://www.acmicpc.net/problem/16398)
 
