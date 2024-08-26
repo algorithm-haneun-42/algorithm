@@ -43,6 +43,8 @@
 
 [골드 5] hanoi : [하노이 탑 이동 순서](https://www.acmicpc.net/problem/11729)
 
+[골드 5] star10 : [별 찍기 - 10](https://www.acmicpc.net/problem/2447)
+
 ### 2024-08-22 58회차 : 랜덤문제풀이
 
 [골드 4] link_planet : [행성 연결](https://www.acmicpc.net/problem/16398)
