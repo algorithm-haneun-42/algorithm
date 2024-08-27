@@ -35,6 +35,14 @@
 
 [백준 문제집](https://www.acmicpc.net/workbook/by/BaaaaaaaaaaarkingDog)
 
+### 2024-08-29 60회차 : 랜덤문제풀이
+
+[골드 4] sum_is_zero : [합이 0](https://www.acmicpc.net/problem/3151)
+
+[골드 4] bracket : [괄호](https://www.acmicpc.net/problem/10422)
+
+[골드 5] diet : [다이어트](https://www.acmicpc.net/problem/1484)
+
 ### 2024-08-26 59회차 : 랜덤문제풀이
 
 [골드 3] spacegod : [우주신과의 교감](https://www.acmicpc.net/problem/1774)
