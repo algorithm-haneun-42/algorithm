@@ -35,6 +35,16 @@
 
 [백준 문제집](https://www.acmicpc.net/workbook/by/BaaaaaaaaaaarkingDog)
 
+### 2024-09-02 61회차 : 랜덤문제풀이
+
+[골드 4] company_culture : [회사 문화1](https://www.acmicpc.net/problem/14267)
+
+[골드 5] mooTube : [MooTube](https://www.acmicpc.net/problem/15591)
+
+[골드 4] list_of_unique_numbers : [List of Unique Numbers](https://www.acmicpc.net/problem/13144)
+
+[골드 4] compression : [압축](https://www.acmicpc.net/problem/1662)
+
 ### 2024-08-29 60회차 : 랜덤문제풀이
 
 [골드 4] sum_is_zero : [합이 0](https://www.acmicpc.net/problem/3151)
