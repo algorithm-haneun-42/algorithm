@@ -13,20 +13,22 @@ int main(void) {
 			if(cnt != 0) {
 				int a = s.top(); s.pop();
 				if(a) 
-					s.push(-1*a*cnt);
+					s.push(-1*(a+10)*cnt);
 				else 
 					s.push(a+cnt);
 			}
 			else {
 				int a = s.top(); s.pop();
 				int b = s.top(); s.pop();
+				if(a < 0) a+= 10;
+				if(b < 0) b+= 10;
 				s.push(-1*a*b);
 			}
 			cnt = 0;
 		}
 		else if(str[i] == '(') {
 			s.push(cnt-1);
-			s.push(-1*(str[i-1] - 48));
+			s.push(-1*(str[i-1] - 38));
 			cnt = 0;
 		}
 		else
@@ -41,22 +43,6 @@ int main(void) {
 				s.push(a);
 				break;
 			}
-		}
-		std::stack<int> tempStack;
-
-		// 원래 스택의 값을 tempStack에 옮기면서 출력
-		cout << "Value: ";
-		while (!s.empty()) {
-			int value = s.top();
-			cout << value << ' ';
-			tempStack.push(value);
-			s.pop();
-		}
-		cout << endl;
-		// tempStack의 값을 다시 s에 옮기기
-		while (!tempStack.empty()) {
-			s.push(tempStack.top());
-			tempStack.pop();
 		}
 	}
 	if(s.empty())
