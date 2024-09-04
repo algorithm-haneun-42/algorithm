@@ -35,6 +35,12 @@
 
 [백준 문제집](https://www.acmicpc.net/workbook/by/BaaaaaaaaaaarkingDog)
 
+### 2024-09-05 휴식 : 보너스문제풀이
+
+[골드 3] dice2 : [주사위 굴리기 2](https://www.acmicpc.net/problem/23288)
+
+[골드 5] gear2 : [톱니바퀴 (2)](https://www.acmicpc.net/problem/15662)
+
 ### 2024-09-02 61회차 : 랜덤문제풀이
 
 [골드 4] company_culture : [회사 문화1](https://www.acmicpc.net/problem/14267)
