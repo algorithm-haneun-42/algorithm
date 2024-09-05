@@ -41,6 +41,8 @@
 
 [골드 5] gear2 : [톱니바퀴 (2)](https://www.acmicpc.net/problem/15662)
 
+[골드 5] moogame : [Moo 게임](https://www.acmicpc.net/problem/5904)
+
 ### 2024-09-02 61회차 : 랜덤문제풀이
 
 [골드 4] company_culture : [회사 문화1](https://www.acmicpc.net/problem/14267)
