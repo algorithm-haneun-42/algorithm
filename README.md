@@ -35,6 +35,14 @@
 
 [백준 문제집](https://www.acmicpc.net/workbook/by/BaaaaaaaaaaarkingDog)
 
+### 2024-09-09 62회차 : 랜덤문제풀이
+
+[골드 5] prime_palindrome : [소수인팰린드롬](https://www.acmicpc.net/problem/1990)
+
+[골드 5] tictactoe : [틱택토](https://www.acmicpc.net/problem/7682)
+
+[골드 5] find_square : [제곱수 찾기](https://www.acmicpc.net/problem/1025)
+
 ### 2024-09-05 휴식 : 보너스문제풀이
 
 [골드 3] dice2 : [주사위 굴리기 2](https://www.acmicpc.net/problem/23288)
