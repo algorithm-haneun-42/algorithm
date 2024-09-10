@@ -35,6 +35,14 @@
 
 [백준 문제집](https://www.acmicpc.net/workbook/by/BaaaaaaaaaaarkingDog)
 
+### 2024-09-12 63회차 : 랜덤문제풀이
+
+[골드 5] pizza : [피자굽기](https://www.acmicpc.net/problem/1756)
+
+[골드 5] submarine : [잠수함식별](https://www.acmicpc.net/problem/2671)
+
+[골드 4] two_robot : [두 로봇](https://www.acmicpc.net/problem/15971)
+
 ### 2024-09-09 62회차 : 랜덤문제풀이
 
 [골드 5] prime_palindrome : [소수인팰린드롬](https://www.acmicpc.net/problem/1990)
