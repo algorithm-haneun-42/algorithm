@@ -33,15 +33,20 @@ int main()
 	{
 		for (int j = 0; j < h; j++)
 		{
-			if (oven[j] < dough[i] || j == h - 1)
+			if (oven[j] < dough[i])
 			{
 				h = j - 1;
+				break ;
+			}
+			else if (j == h - 1)
+			{
+				h = j;
 				break ;
 			}
 		}
 	}
 	
-	cout << h << '\n';
+	cout << h + 1 << '\n';
 
 	return (0);
 }
