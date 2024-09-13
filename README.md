@@ -35,6 +35,8 @@
 
 [백준 문제집](https://www.acmicpc.net/workbook/by/BaaaaaaaaaaarkingDog)
 
+### 추석주는 쉬어갑니다~
+
 ### 2024-09-12 63회차 : 랜덤문제풀이
 
 [골드 5] pizza : [피자굽기](https://www.acmicpc.net/problem/1756)
