@@ -35,6 +35,14 @@
 
 [백준 문제집](https://www.acmicpc.net/workbook/by/BaaaaaaaaaaarkingDog)
 
+### 2024-09-26 64회차 : 랜덤문제풀이
+
+[골드 4] remove_bracket : [괄호 제거](https://www.acmicpc.net/problem/2800)
+
+[골드 5] string_game : [문자열 게임2](https://www.acmicpc.net/problem/20437)
+
+[골드 4] chage_coin : [동전 바꿔주기](https://www.acmicpc.net/problem/2624)
+
 ### 추석주는 쉬어갑니다~
 
 ### 2024-09-12 63회차 : 랜덤문제풀이
