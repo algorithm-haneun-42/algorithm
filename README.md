@@ -35,6 +35,14 @@
 
 [백준 문제집](https://www.acmicpc.net/workbook/by/BaaaaaaaaaaarkingDog)
 
+### 2024-09-30 65회차 : 랜덤문제풀이
+
+[골드 3] remain_sum : [나머지 합](https://www.acmicpc.net/problem/10986)
+
+[골드 5] string_game : [주사위 쌓기](https://www.acmicpc.net/problem/2116)
+
+[골드 4] sum_of_nums : [수들의 합4](https://www.acmicpc.net/problem/2015)
+
 ### 2024-09-26 64회차 : 랜덤문제풀이
 
 [골드 4] remove_bracket : [괄호 제거](https://www.acmicpc.net/problem/2800)
