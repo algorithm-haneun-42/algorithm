@@ -35,6 +35,14 @@
 
 [백준 문제집](https://www.acmicpc.net/workbook/by/BaaaaaaaaaaarkingDog)
 
+### 2024-10-03 66회차 : 랜덤문제풀이
+
+[골드 5] num_card : [숫자카드](https://www.acmicpc.net/problem/2591)
+
+[골드 4] food_critic : [음식 평론가](https://www.acmicpc.net/problem/1188)
+
+[골드 5] descending_num : [줄어드는 수](https://www.acmicpc.net/problem/1174)
+
 ### 2024-09-30 65회차 : 랜덤문제풀이
 
 [골드 3] remain_sum : [나머지 합](https://www.acmicpc.net/problem/10986)
