@@ -35,6 +35,14 @@
 
 [백준 문제집](https://www.acmicpc.net/workbook/by/BaaaaaaaaaaarkingDog)
 
+### 2024-10-07 67회차 : 랜덤문제풀이 PCCP 화이팅
+
+[골드 4] seoul_to_gyeongsan : [서울에서 경산까지](https://www.acmicpc.net/problem/14863)
+
+[골드 4] cross_stonebridge : [돌다리 건너기](https://www.acmicpc.net/problem/2602)
+
+[골드 4] resort : [리조트](https://www.acmicpc.net/problem/13302)
+
 ### 2024-10-03 66회차 : 랜덤문제풀이
 
 [골드 5] num_card : [숫자카드](https://www.acmicpc.net/problem/2591)
