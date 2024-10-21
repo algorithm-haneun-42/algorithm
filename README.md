@@ -35,6 +35,14 @@
 
 [백준 문제집](https://www.acmicpc.net/workbook/by/BaaaaaaaaaaarkingDog)
 
+### 2024-10-24 68회차 : 랜덤문제풀이
+
+[골드 5] henry : [헨리](https://www.acmicpc.net/problem/10253)
+
+[골드 5] captain_dasom : [캡틴 이다솜](https://www.acmicpc.net/problem/1660)
+
+[골드 4] move_pipe : [파이프 옮기기 2](https://www.acmicpc.net/problem/17069)
+
 ### 2024-10-07 67회차 : 랜덤문제풀이 PCCP 화이팅
 
 [골드 4] seoul_to_gyeongsan : [서울에서 경산까지](https://www.acmicpc.net/problem/14863)
