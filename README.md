@@ -35,6 +35,14 @@
 
 [백준 문제집](https://www.acmicpc.net/workbook/by/BaaaaaaaaaaarkingDog)
 
+### 2024-10-28 69회차 : 랜덤문제풀이
+
+[골드 4] two_dots : [two dots](https://www.acmicpc.net/problem/16929)
+
+[골드 5] manage_farm : [농장 관리](https://www.acmicpc.net/problem/1245)
+
+[골드 4] masan : [민준이와 마산 그리고 건우](https://www.acmicpc.net/problem/18223)
+
 ### 2024-10-24 68회차 : 랜덤문제풀이
 
 [골드 5] henry : [헨리](https://www.acmicpc.net/problem/10253)
