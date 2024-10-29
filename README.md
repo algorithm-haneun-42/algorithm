@@ -35,6 +35,15 @@
 
 [백준 문제집](https://www.acmicpc.net/workbook/by/BaaaaaaaaaaarkingDog)
 
+
+### 2024-10-31 70회차 : 랜덤문제풀이
+
+[골드 5] subject : [수강 과목](https://www.acmicpc.net/problem/17845)
+
+[골드 4] secret_group : [비밀 모임](https://www.acmicpc.net/problem/13424)
+
+[골드 4] make_bridge : [일감호에 다리 놓기](https://www.acmicpc.net/problem/17490)
+
 ### 2024-10-28 69회차 : 랜덤문제풀이
 
 [골드 4] two_dots : [two dots](https://www.acmicpc.net/problem/16929)
