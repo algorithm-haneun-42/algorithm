@@ -44,28 +44,35 @@ public class RotateArray {
         }
     }
 
-    static int[] extractLayer(int idx) {
-        List<Integer> layer = new ArrayList<>();
-        // Top row
-        for (int j = idx; j < m - idx; j++) layer.add(arr[idx][j]);
-        // Right column
-        for (int i = idx + 1; i < n - idx; i++) layer.add(arr[i][m - idx - 1]);
-        // Bottom row
-        for (int j = m - idx - 2; j >= idx; j--) layer.add(arr[n - idx - 1][j]);
-        // Left column
-        for (int i = n - idx - 2; i > idx; i--) layer.add(arr[i][idx]);
-        return layer.stream().mapToInt(Integer::intValue).toArray();
-    }
+	static int[] extractLayer(int idx) {
+		List<Integer> layer = new ArrayList<>();
+		int startRow = idx, endRow = n - idx - 1;
+		int startCol = idx, endCol = m - idx - 1;
+	
+		// 아래쪽 (Top -> Bottom)
+		for (int i = startRow; i <= endRow; i++) layer.add(arr[i][startCol]);
+		// 오른쪽 (Left -> Right)
+		for (int j = startCol + 1; j <= endCol; j++) layer.add(arr[endRow][j]);
+		// 위쪽 (Bottom -> Top)
+		for (int i = endRow - 1; i >= startRow; i--) layer.add(arr[i][endCol]);
+		// 왼쪽 (Right -> Left)
+		for (int j = endCol - 1; j > startCol; j--) layer.add(arr[startRow][j]);
+	
+		return layer.stream().mapToInt(Integer::intValue).toArray();
+	}
 
-    static void insertLayer(int idx, int[] layer) {
-        int k = 0;
-        // Top row
-        for (int j = idx; j < m - idx; j++) arr[idx][j] = layer[k++];
-        // Right column
-        for (int i = idx + 1; i < n - idx; i++) arr[i][m - idx - 1] = layer[k++];
-        // Bottom row
-        for (int j = m - idx - 2; j >= idx; j--) arr[n - idx - 1][j] = layer[k++];
-        // Left column
-        for (int i = n - idx - 2; i > idx; i--) arr[i][idx] = layer[k++];
-    }
+	static void insertLayer(int idx, int[] layer) {
+		int k = 0;
+		int startRow = idx, endRow = n - idx - 1;
+		int startCol = idx, endCol = m - idx - 1;
+	
+		// 아래쪽 (Top -> Bottom)
+		for (int i = startRow; i <= endRow; i++) arr[i][startCol] = layer[k++];
+		// 오른쪽 (Left -> Right)
+		for (int j = startCol + 1; j <= endCol; j++) arr[endRow][j] = layer[k++];
+		// 위쪽 (Bottom -> Top)
+		for (int i = endRow - 1; i >= startRow; i--) arr[i][endCol] = layer[k++];
+		// 왼쪽 (Right -> Left)
+		for (int j = endCol - 1; j > startCol; j--) arr[startRow][j] = layer[k++];
+	}
 }
